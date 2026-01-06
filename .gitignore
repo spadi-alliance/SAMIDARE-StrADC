@@ -44,14 +44,3 @@ ip_repo/**/*.lpr
 # Optional: simulation artifacts
 *.vcd
 *.wdb
-AMANEQ/
-
-Belle2_UT4_1G/
-
-Belle2_UT4_2.5G/
-
-HUL/
-
-nexys_video/
-
-SAMIDARE/samidare.cache/
