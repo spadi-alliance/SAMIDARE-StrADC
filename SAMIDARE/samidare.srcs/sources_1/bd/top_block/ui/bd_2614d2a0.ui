@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.557303",
+   "Default View_TopLeft":"-510,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace portBus GPIOP -pg 1 -lvl 5 -x 1070 -y 60 -defaultsOSRD
+preplace portBus GPION -pg 1 -lvl 5 -x 1070 -y 80 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace portBus IOBUF_IO_T -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace portBus IOBUF_IO_O -pg 1 -lvl 5 -x 1070 -y 100 -defaultsOSRD
+preplace inst util_ds_buf_5 -pg 1 -lvl 4 -x 900 -y 80 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 2 -x 370 -y 130 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 2 -x 370 -y 230 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 1 -x 120 -y 330 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 1 -x 120 -y 430 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 1 -x 120 -y 530 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 2 -x 370 -y 630 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 2 -x 370 -y 730 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 2 -x 370 -y 830 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 370 -y 330 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 2 -x 370 -y 430 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 2 -x 370 -y 530 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 650 -y 440 -defaultsOSRD
+preplace netloc Net 1 4 1 NJ 60
+preplace netloc Net1 1 4 1 NJ 80
+preplace netloc xlslice_2_Dout 1 1 1 NJ 330
+preplace netloc xlslice_3_Dout 1 1 1 NJ 430
+preplace netloc xlslice_4_Dout 1 1 1 NJ 530
+preplace netloc xlconcat_0_dout 1 3 1 750 90n
+preplace netloc xlslice_0_Dout 1 2 1 550J 130n
+preplace netloc xlslice_1_Dout 1 2 1 540J 230n
+preplace netloc util_vector_logic_0_Res 1 2 1 520J 330n
+preplace netloc util_vector_logic_1_Res 1 2 1 NJ 430
+preplace netloc util_vector_logic_2_Res 1 2 1 520J 450n
+preplace netloc xlslice_5_Dout 1 2 1 530J 470n
+preplace netloc xlslice_6_Dout 1 2 1 540J 490n
+preplace netloc xlslice_7_Dout 1 2 1 550J 510n
+preplace netloc Din_1 1 0 2 20 270 220
+preplace netloc IOBUF_IO_T_1 1 0 4 NJ 70 NJ 70 NJ 70 NJ
+preplace netloc util_ds_buf_5_IOBUF_IO_O 1 4 1 NJ 100
+levelinfo -pg 1 0 120 370 650 900 1070
+pagesize -pg 1 -db -bbox -sgen -170 0 1240 890
+"
+}
+

@@ -1,0 +1,31 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-570,-977",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port m00_axi -pg 1 -lvl 3 -x 940 -y -150 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_init_trg -pg 1 -lvl 0 -x 0 -y 110 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port port-id_m00_axi_aresetn -pg 1 -lvl 0 -x 0 -y -100 -defaultsOSRD
+preplace portBus TRG_N -pg 1 -lvl 3 -x 940 -y 100 -defaultsOSRD
+preplace portBus TRG_P -pg 1 -lvl 3 -x 940 -y 70 -defaultsOSRD
+preplace inst SAMPA_TRG_EN_v1_0_0 -pg 1 -lvl 1 -x 200 -y -120 -defaultsOSRD
+preplace inst OBUFDS_TRG_0 -pg 1 -lvl 1 -x 200 -y -490 -defaultsOSRD
+preplace inst TRG_MODULE_0 -pg 1 -lvl 2 -x 500 -y 80 -defaultsOSRD
+preplace netloc OBUFDS_TRG_0_O 1 1 2 N -500 630J
+preplace netloc OBUFDS_TRG_0_OB 1 1 2 NJ -480 620
+preplace netloc SAMPA_TRG_EN_v1_0_0_sampa_trg_en 1 1 1 380 -130n
+preplace netloc TRG_MODULE_0_trg 1 0 3 20 -210 NJ -210 610
+preplace netloc clk_1 1 0 2 20J 50 N
+preplace netloc init_trg_1 1 0 2 NJ 110 N
+preplace netloc m00_axi_aresetn_1 1 0 1 N -100
+preplace netloc rst_1 1 0 2 NJ 70 N
+preplace netloc SAMPA_TRG_EN_v1_0_0_m00_axi 1 1 2 NJ -150 NJ
+levelinfo -pg 1 0 200 500 940
+pagesize -pg 1 -db -bbox -sgen -170 -560 1070 310
+"
+}
+0

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xcau15p-sbvb484-1-i" LaunchTime="1736591015">
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="SAMPA_PON_v2_0_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="SAMPA_PON_v2_0_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="SAMPA_PON_v2_0.drc"/>
+  <File Type="BG-BGN" Name="SAMPA_PON_v2_0.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="SAMPA_PON_v2_0.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SAMPA_PON_v2_0.ltx"/>
+  <File Type="RBD_FILE" Name="SAMPA_PON_v2_0.rbd"/>
+  <File Type="NPI_FILE" Name="SAMPA_PON_v2_0.npi"/>
+  <File Type="RNPI_FILE" Name="SAMPA_PON_v2_0.rnpi"/>
+  <File Type="CFI_FILE" Name="SAMPA_PON_v2_0.cfi"/>
+  <File Type="RCFI_FILE" Name="SAMPA_PON_v2_0.rcfi"/>
+  <File Type="RDI-RDI" Name="SAMPA_PON_v2_0.vdi"/>
+  <File Type="PDI-FILE" Name="SAMPA_PON_v2_0.pdi"/>
+  <File Type="BITSTR-MMI" Name="SAMPA_PON_v2_0.mmi"/>
+  <File Type="BITSTR-BMM" Name="SAMPA_PON_v2_0_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="SAMPA_PON_v2_0.nky"/>
+  <File Type="BITSTR-RBT" Name="SAMPA_PON_v2_0.rbt"/>
+  <File Type="BITSTR-MSK" Name="SAMPA_PON_v2_0.msk"/>
+  <File Type="BG-BIN" Name="SAMPA_PON_v2_0.bin"/>
+  <File Type="BG-BIT" Name="SAMPA_PON_v2_0.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SAMPA_PON_v2_0_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SAMPA_PON_v2_0_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SAMPA_PON_v2_0_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SAMPA_PON_v2_0_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SAMPA_PON_v2_0_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SAMPA_PON_v2_0_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SAMPA_PON_v2_0_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="SAMPA_PON_v2_0_bus_skew_routed.rpx"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SAMPA_PON_v2_0_postplace_pwropt.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="SAMPA_PON_v2_0_utilization_placed.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="SAMPA_PON_v2_0_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-UTIL" Name="SAMPA_PON_v2_0_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SAMPA_PON_v2_0_clock_utilization_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SAMPA_PON_v2_0.hwdef"/>
+  <File Type="PLACE-IO" Name="SAMPA_PON_v2_0_io_placed.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_physopted.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SAMPA_PON_v2_0_incremental_reuse_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SAMPA_PON_v2_0_methodology_drc_routed.pb"/>
+  <File Type="PLACE-DCP" Name="SAMPA_PON_v2_0_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="SAMPA_PON_v2_0_drc_opted.rpt"/>
+  <File Type="PLACE-TIMING" Name="SAMPA_PON_v2_0_timing_summary_placed.rpt"/>
+  <File Type="PWROPT-DRC" Name="SAMPA_PON_v2_0_drc_pwropted.rpt"/>
+  <File Type="INIT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="SAMPA_PON_v2_0.tcl"/>
+  <File Type="PLACE-CTRL" Name="SAMPA_PON_v2_0_control_sets_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SAMPA_PON_v2_0_methodology_drc_routed.rpt"/>
+  <File Type="OPT-DCP" Name="SAMPA_PON_v2_0_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="SAMPA_PON_v2_0_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="SAMPA_PON_v2_0_timing_summary_opted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SAMPA_PON_v2_0_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="SAMPA_PON_v2_0_drc_routed.rpx"/>
+  <File Type="PWROPT-DCP" Name="SAMPA_PON_v2_0_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="SAMPA_PON_v2_0_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="SAMPA_PON_v2_0_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SAMPA_PON_v2_0_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="SAMPA_PON_v2_0_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SAMPA_PON_v2_0_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="SAMPA_PON_v2_0_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SAMPA_PON_v2_0_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="SAMPA_PON_v2_0_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="SAMPA_PON_v2_0_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="SAMPA_PON_v2_0_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="SAMPA_PON_v2_0_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="SAMPA_PON_v2_0_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SAMPA_PON_v2_0_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SAMPA_PON_v2_0_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SAMPA_PON_v2_0_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SAMPA_PON_v2_0_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="SAMPA_PON_v2_0_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SAMPA_PON_v2_0_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="SAMPA_PON_v2_0_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="SAMPA_PON_v2_0_bus_skew_routed.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0_S00_AXI.v">
+      <FileInfo>
+        <Attr Name="Library" Val=""/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0.v">
+      <FileInfo>
+        <Attr Name="Library" Val=""/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/SAMPA_PON_2_0/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SAMPA_PON_v2_0"/>
+      <Option Name="TopRTLFile" Val="$PPRDIR/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0.v"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

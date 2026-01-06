@@ -1,0 +1,56 @@
+{
+   "/comment_5":"comment_0",
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-913,-562",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port m00_axi -pg 1 -lvl 2 -x 520 -y 180 -defaultsOSRD
+preplace port port-id_m00_axi_aresetn -pg 1 -lvl 0 -x -40 -y 340 -defaultsOSRD
+preplace port port-id_m00_axi_aclk -pg 1 -lvl 0 -x -40 -y 310 -defaultsOSRD
+preplace port port-id_SAMPA_EN_A -pg 1 -lvl 2 -x 520 -y 210 -defaultsOSRD
+preplace port port-id_clk_in1 -pg 1 -lvl 0 -x -40 -y 100 -defaultsOSRD
+preplace port port-id_int_trig_en -pg 1 -lvl 2 -x 520 -y 240 -defaultsOSRD
+preplace port port-id_clk_enable_1kHz -pg 1 -lvl 2 -x 520 -y 380 -defaultsOSRD
+preplace port port-id_clk_enable_1MHz -pg 1 -lvl 2 -x 520 -y 400 -defaultsOSRD
+preplace portBus CG1 -pg 1 -lvl 2 -x 520 -y 300 -defaultsOSRD
+preplace portBus CG0 -pg 1 -lvl 2 -x 520 -y 270 -defaultsOSRD
+preplace portBus CTS -pg 1 -lvl 2 -x 520 -y 330 -defaultsOSRD
+preplace portBus POL -pg 1 -lvl 2 -x 520 -y 360 -defaultsOSRD
+preplace portBus BX_SYNC_TRG_P -pg 1 -lvl 2 -x 520 -y 0 -defaultsOSRD
+preplace portBus BX_SYNC_TRG_N -pg 1 -lvl 2 -x 520 -y 30 -defaultsOSRD
+preplace portBus HBTRG_P -pg 1 -lvl 2 -x 520 -y 60 -defaultsOSRD
+preplace portBus HBTRG_N -pg 1 -lvl 2 -x 520 -y 90 -defaultsOSRD
+preplace portBus HRSTB_N -pg 1 -lvl 2 -x 520 -y 120 -defaultsOSRD
+preplace portBus HRSTB_P -pg 1 -lvl 2 -x 520 -y 150 -defaultsOSRD
+preplace portBus n_samples -pg 1 -lvl 2 -x 520 -y -20 -defaultsOSRD
+preplace inst Const_wrapper -pg 1 -lvl 1 -x 200 -y 80 -defaultsOSRD
+preplace inst SAMPA_PON_v1_0_0 -pg 1 -lvl 1 -x 200 -y 460 -defaultsOSRD
+preplace inst bits_to_n_samples_0 -pg 1 -lvl 1 -x 200 -y 230 -defaultsOSRD
+preplace netloc Const_wrapper_BX_SYNC_TRG_N 1 1 1 420J 30n
+preplace netloc Const_wrapper_BX_SYNC_TRG_P 1 1 1 400J 0n
+preplace netloc Const_wrapper_HBTRG_N 1 1 1 NJ 90
+preplace netloc Const_wrapper_HBTRG_P 1 1 1 420J 60n
+preplace netloc Const_wrapper_HRSTB_N 1 1 1 420J 110n
+preplace netloc Const_wrapper_HRSTB_P 1 1 1 420J 130n
+preplace netloc SAMPA_PON_v1_0_0_cg0 1 1 1 450J 270n
+preplace netloc SAMPA_PON_v1_0_0_cg1 1 1 1 460J 300n
+preplace netloc SAMPA_PON_v1_0_0_clk_enable_1MHz 1 1 1 500J 400n
+preplace netloc SAMPA_PON_v1_0_0_clk_enable_1kHz 1 1 1 490J 380n
+preplace netloc SAMPA_PON_v1_0_0_cts 1 1 1 470J 330n
+preplace netloc SAMPA_PON_v1_0_0_int_trig_en 1 1 1 440J 240n
+preplace netloc SAMPA_PON_v1_0_0_pol 1 1 1 480J 360n
+preplace netloc SAMPA_PON_v1_0_0_sampa_power_on 1 1 1 430J 210n
+preplace netloc clk_in1_1 1 0 1 -20J 80n
+preplace netloc m00_axi_aclk_1 1 0 1 -10J 310n
+preplace netloc m00_axi_aresetn_1 1 0 1 -20J 340n
+preplace netloc SAMPA_PON_v1_0_0_n_samp_0 1 0 2 0 -30 390
+preplace netloc SAMPA_PON_v1_0_0_n_samp_1 1 0 2 0 640 390
+preplace netloc bits_to_n_samples_0_n_samples 1 1 1 410 -20n
+preplace netloc Conn1 1 1 1 420J 180n
+levelinfo -pg 1 -40 200 520
+pagesize -pg 1 -db -bbox -sgen -220 -40 730 660
+"
+}
+0

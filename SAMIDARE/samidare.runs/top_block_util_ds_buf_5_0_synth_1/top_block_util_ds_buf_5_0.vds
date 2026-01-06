@@ -1,0 +1,429 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Aug 15 16:09:36 2024
+# Process ID: 1330925
+# Current directory: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1
+# Command line: vivado -log top_block_util_ds_buf_5_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_block_util_ds_buf_5_0.tcl
+# Log file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/top_block_util_ds_buf_5_0.vds
+# Journal file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/vivado.jou
+# Running On: e16fpga01, OS: Linux, CPU Frequency: 4500.000 MHz, CPU Physical cores: 32, Host memory: 66513 MB
+#-----------------------------------------------------------
+source top_block_util_ds_buf_5_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_Controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/start_i2c_write_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: top_block_util_ds_buf_5_0
+Command: synth_design -top top_block_util_ds_buf_5_0 -part xcau15p-sbvb484-1-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Device 21-403] Loading part xcau15p-sbvb484-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1331255
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2149.215 ; gain = 365.695 ; free physical = 27541 ; free virtual = 46753
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3121.691; parent = 2153.188; children = 968.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_block_util_ds_buf_5_0' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/synth/top_block_util_ds_buf_5_0.vhd:64]
+	Parameter C_BUF_TYPE bound to: IBUFDS - type: string 
+	Parameter C_SIZE bound to: 11 - type: integer 
+	Parameter C_BUFGCE_DIV bound to: 1 - type: integer 
+	Parameter C_BUFG_GT_SYNC bound to: 0 - type: integer 
+	Parameter C_SIM_DEVICE bound to: VERSAL_AI_CORE_ES1 - type: string 
+	Parameter C_OBUFDS_GTE5_ADV bound to: 2'b00 
+	Parameter C_REFCLK_ICNTL_TX bound to: 5'b00000 
+INFO: [Synth 8-3491] module 'util_ds_buf' declared at '/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:72' bound to instance 'U0' of component 'util_ds_buf' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/synth/top_block_util_ds_buf_5_0.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'util_ds_buf' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:251]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-113] binding component instance 'IBUFDS_I' to cell 'IBUFDS' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:376]
+INFO: [Synth 8-256] done synthesizing module 'util_ds_buf' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:251]
+INFO: [Synth 8-256] done synthesizing module 'top_block_util_ds_buf_5_0' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/synth/top_block_util_ds_buf_5_0.vhd:64]
+WARNING: [Synth 8-3848] Net BUFG_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:109]
+WARNING: [Synth 8-3848] Net BUFGCE_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:114]
+WARNING: [Synth 8-3848] Net BUFH_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:119]
+WARNING: [Synth 8-3848] Net BUFHCE_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:124]
+WARNING: [Synth 8-3848] Net BUFG_FABRIC_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:128]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE5_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:133]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE5_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:134]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE5_ADV_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:139]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE5_ADV_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:140]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE3_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:146]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE3_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:147]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE3_ADV_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:152]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE3_ADV_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:153]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE4_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:159]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE4_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:160]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE4_ADV_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:165]
+WARNING: [Synth 8-3848] Net OBUFDS_GTE4_ADV_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:166]
+WARNING: [Synth 8-3848] Net IBUFDS_GTM_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:170]
+WARNING: [Synth 8-3848] Net IBUFDS_GTM_ODIV2 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:171]
+WARNING: [Synth 8-3848] Net OBUFDS_GTM_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:177]
+WARNING: [Synth 8-3848] Net OBUFDS_GTM_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:178]
+WARNING: [Synth 8-3848] Net OBUFDS_GTM_ADV_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:185]
+WARNING: [Synth 8-3848] Net OBUFDS_GTM_ADV_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:186]
+WARNING: [Synth 8-3848] Net IBUFDS_GTME5_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:189]
+WARNING: [Synth 8-3848] Net IBUFDS_GTME5_ODIV2 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:190]
+WARNING: [Synth 8-3848] Net OBUFDS_GTME5_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:198]
+WARNING: [Synth 8-3848] Net OBUFDS_GTME5_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:199]
+WARNING: [Synth 8-3848] Net OBUFDS_GTME5_ADV_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:205]
+WARNING: [Synth 8-3848] Net OBUFDS_GTME5_ADV_OB in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:206]
+WARNING: [Synth 8-3848] Net BUFG_GT_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:216]
+WARNING: [Synth 8-3848] Net BUFG_PS_O in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:220]
+WARNING: [Synth 8-3848] Net MBUFG_GT_O1 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:232]
+WARNING: [Synth 8-3848] Net MBUFG_GT_O2 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:233]
+WARNING: [Synth 8-3848] Net MBUFG_GT_O3 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:234]
+WARNING: [Synth 8-3848] Net MBUFG_GT_O4 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:235]
+WARNING: [Synth 8-3848] Net MBUFG_PS_O1 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:240]
+WARNING: [Synth 8-3848] Net MBUFG_PS_O2 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:241]
+WARNING: [Synth 8-3848] Net MBUFG_PS_O3 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:242]
+WARNING: [Synth 8-3848] Net MBUFG_PS_O4 in module/entity util_ds_buf does not have driver. [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/util_ds_buf.vhd:243]
+WARNING: [Synth 8-7129] Port BUFG_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFGCE_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFH_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFHCE_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BUFG_FABRIC_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_OB[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_O[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[10] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[9] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[8] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[7] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[6] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[5] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[4] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[3] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[2] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[1] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE5_ADV_OB[0] in module util_ds_buf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port OBUFDS_GTE3_O[10] in module util_ds_buf is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2222.152 ; gain = 438.633 ; free physical = 27575 ; free virtual = 46790
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3190.660; parent = 2222.156; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.965 ; gain = 456.445 ; free physical = 27543 ; free virtual = 46758
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3208.473; parent = 2239.969; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2239.965 ; gain = 456.445 ; free physical = 27539 ; free virtual = 46754
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3208.473; parent = 2239.969; children = 968.504
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2245.902 ; gain = 0.000 ; free physical = 27729 ; free virtual = 46946
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-1115] Found multi-term driver net: U0/<const0>.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/top_block_util_ds_buf_5_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/top_block_util_ds_buf_5_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/top_block_util_ds_buf_5_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.gen/sources_1/bd/top_block/ip/top_block_util_ds_buf_5_0/top_block_util_ds_buf_5_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2371.715 ; gain = 0.000 ; free physical = 27582 ; free virtual = 46807
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 11 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2371.715 ; gain = 0.000 ; free physical = 27581 ; free virtual = 46805
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2371.715 ; gain = 588.195 ; free physical = 27585 ; free virtual = 46833
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3308.207; parent = 2339.703; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcau15p-sbvb484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2371.715 ; gain = 588.195 ; free physical = 27569 ; free virtual = 46818
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3308.207; parent = 2339.703; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2371.715 ; gain = 588.195 ; free physical = 27563 ; free virtual = 46812
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3308.207; parent = 2339.703; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2371.715 ; gain = 588.195 ; free physical = 27519 ; free virtual = 46747
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3308.207; parent = 2339.703; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 576 (col length:72)
+BRAMs: 288 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2371.715 ; gain = 588.195 ; free physical = 27527 ; free virtual = 46764
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1366.059; parent = 1235.685; children = 130.374
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3308.207; parent = 2339.703; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 27146 ; free virtual = 46396
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1522.754; parent = 1391.298; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 27144 ; free virtual = 46393
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1522.777; parent = 1391.321; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 27117 ; free virtual = 46366
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1523.180; parent = 1391.724; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26945 ; free virtual = 46195
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1523.447; parent = 1391.992; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26938 ; free virtual = 46188
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1523.463; parent = 1392.008; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26932 ; free virtual = 46181
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1523.478; parent = 1392.023; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26921 ; free virtual = 46171
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1523.490; parent = 1392.037; children = 131.456
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26875 ; free virtual = 46124
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1526.013; parent = 1393.146; children = 132.867
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 26967 ; free virtual = 46217
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1526.013; parent = 1393.146; children = 132.867
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |IBUFDS |    11|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2418.457 ; gain = 634.938 ; free physical = 27007 ; free virtual = 46257
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1528.511; parent = 1393.938; children = 134.572
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3386.965; parent = 2418.461; children = 968.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1332 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2418.457 ; gain = 503.188 ; free physical = 27065 ; free virtual = 46315
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2418.465 ; gain = 634.938 ; free physical = 27192 ; free virtual = 46442
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2418.465 ; gain = 0.000 ; free physical = 27241 ; free virtual = 46491
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-1115] Found multi-term driver net: U0/<const0>.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2443.238 ; gain = 0.000 ; free physical = 27502 ; free virtual = 46752
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 11 instances
+
+Synth Design complete, checksum: b11bb0b4
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 145 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2443.238 ; gain = 1149.645 ; free physical = 27697 ; free virtual = 46946
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint '/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/top_block_util_ds_buf_5_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP top_block_util_ds_buf_5_0, cache-ID = 6238dc610c2aa6db
+INFO: [Common 17-1381] The checkpoint '/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_5_0_synth_1/top_block_util_ds_buf_5_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_block_util_ds_buf_5_0_utilization_synth.rpt -pb top_block_util_ds_buf_5_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 15 16:09:57 2024...

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER start_i2c_write
+	OPTION supported_peripherals = (start_i2c_write);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = start_i2c_write;
+END DRIVER

@@ -1,0 +1,248 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_Layers":"/SO0P_1:true|/SOCLK_wrapper/util_ds_buf_0_OBUF_DS_P:true|/SO3N_1:true|/GPIO/GPIO_IOBUF/util_ds_buf_5_IOBUF_IO_O:true|/BASECLK_1:true|/Const_wrapper/clk_wiz_2_clk_out1:true|/HRSTB_wrapper/util_ds_buf_2_OBUF_DS_N:true|/clock_wrapper/clk_wiz_1_clk_out1:true|/util_ds_buf_4_OBUF_DS_P:true|/clock_wrapper/clk_wiz_0_clk_out4:true|/SO2N_1:true|/util_ds_buf_1_OBUF_DS_P:true|/PUSH_SW_1:true|/SO1P_1:true|/util_ds_buf_3_OBUF_DS_P:true|/SO2P_1:true|/util_ds_buf_4_OBUF_DS_N:true|/clock_wrapper/clk_wiz_1_clk_out2:true|/reset/rst_clk_wiz_0_125M_peripheral_aresetn:true|/fnet_wrapper/fakernet/gig_ethernet_pcs_pma_0_gmii_rx_clk:true|/SO3P_1:true|/clock_wrapper/clk_wiz_0_clk_out3:true|/clock_wrapper/clk_wiz_0_clk_out1:true|/util_ds_buf_3_OBUF_DS_N:true|/SO0N_1:true|/SO1N_1:true|/SOCLK_wrapper/util_ds_buf_0_OBUF_DS_N:true|/HRSTB_wrapper/util_ds_buf_2_OBUF_DS_P:true|/clock_wrapper/clk_wiz_0_clk_out5:true|/rst_clk_wiz_1_320M_peripheral_aresetn:true|/util_ds_buf_1_OBUF_DS_N:true|/fnet_wrapper/fakernet/fakernet_top_0_user_data_reset:true|",
+   "Default View_ScaleFactor":"0.717936",
+   "Default View_TopLeft":"1715,1937",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeData":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Interfaces View_Layers":"/SO0P_1:false|/SOCLK_wrapper/util_ds_buf_0_OBUF_DS_P:false|/SO3N_1:false|/GPIO/GPIO_IOBUF/util_ds_buf_5_IOBUF_IO_O:false|/BASECLK_1:false|/Const_wrapper/clk_wiz_2_clk_out1:false|/HRSTB_wrapper/util_ds_buf_2_OBUF_DS_N:false|/clock_wrapper/clk_wiz_1_clk_out1:false|/util_ds_buf_4_OBUF_DS_P:false|/clock_wrapper/clk_wiz_0_clk_out4:false|/SO2N_1:false|/util_ds_buf_1_OBUF_DS_P:false|/PUSH_SW_1:false|/SO1P_1:false|/util_ds_buf_3_OBUF_DS_P:false|/SO2P_1:false|/util_ds_buf_4_OBUF_DS_N:false|/clock_wrapper/clk_wiz_1_clk_out2:false|/reset/rst_clk_wiz_0_125M_peripheral_aresetn:false|/fnet_wrapper/fakernet/gig_ethernet_pcs_pma_0_gmii_rx_clk:false|/SO3P_1:false|/clock_wrapper/clk_wiz_0_clk_out3:false|/clock_wrapper/clk_wiz_0_clk_out1:false|/util_ds_buf_3_OBUF_DS_N:false|/SO0N_1:false|/SO1N_1:false|/SOCLK_wrapper/util_ds_buf_0_OBUF_DS_N:false|/HRSTB_wrapper/util_ds_buf_2_OBUF_DS_P:false|/clock_wrapper/clk_wiz_0_clk_out5:false|/rst_clk_wiz_1_320M_peripheral_aresetn:false|/util_ds_buf_1_OBUF_DS_N:false|/fnet_wrapper/fakernet/fakernet_top_0_user_data_reset:false|",
+   "Interfaces View_ScaleFactor":"0.291691",
+   "Interfaces View_TopLeft":"-1375,-14",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "comment_0":"Enter Comments here",
+   "comment_1":"POL 1:Neg, 0:Pos
+
+Gain: Shaping Time: (CTS,CG0,CG1)
+30mV/fC : 160ns : (low,high,high)
+20mV/fC : 160ns : (low,low,high)
+  4mV/fC : 300ns : (high,low,low)
+
+other modes are unsuppprted",
+   "comment_2":"some SO pins have inverse POL.
+proper not gate is added",
+   "commentid":"comment_0|comment_1|comment_2|",
+   "font_comment_0":"14",
+   "font_comment_1":"14",
+   "font_comment_2":"14",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_SFP0RXN -pg 1 -lvl 0 -x -40 -y 2010 -defaultsOSRD
+preplace port port-id_SFP0TXP -pg 1 -lvl 7 -x 3760 -y 1690 -defaultsOSRD
+preplace port port-id_SFP0TXN -pg 1 -lvl 7 -x 3760 -y 1710 -defaultsOSRD
+preplace port port-id_SFP0RXP -pg 1 -lvl 0 -x -40 -y 2070 -defaultsOSRD
+preplace port port-id_BASECLK -pg 1 -lvl 0 -x -40 -y 1650 -defaultsOSRD
+preplace port port-id_SAMPA_EN_A -pg 1 -lvl 7 -x 3760 -y 120 -defaultsOSRD
+preplace port port-id_SAMPA_EN_D -pg 1 -lvl 7 -x 3760 -y 140 -defaultsOSRD
+preplace port port-id_PUSH_SW -pg 1 -lvl 0 -x -40 -y 1790 -defaultsOSRD
+preplace port port-id_S_I2C_SDA -pg 1 -lvl 7 -x 3760 -y 1080 -defaultsOSRD
+preplace port port-id_S_I2C_SCL -pg 1 -lvl 7 -x 3760 -y 1060 -defaultsOSRD
+preplace port port-id_SFP_CLK_P -pg 1 -lvl 0 -x -40 -y 2030 -defaultsOSRD
+preplace port port-id_SFP_CLK_N -pg 1 -lvl 0 -x -40 -y 2050 -defaultsOSRD
+preplace portBus LED -pg 1 -lvl 7 -x 3760 -y 1730 -defaultsOSRD
+preplace portBus SO1P -pg 1 -lvl 0 -x -40 -y 1410 -defaultsOSRD
+preplace portBus SO1N -pg 1 -lvl 0 -x -40 -y 1430 -defaultsOSRD
+preplace portBus SO0N -pg 1 -lvl 0 -x -40 -y 1450 -defaultsOSRD
+preplace portBus SO0P -pg 1 -lvl 0 -x -40 -y 1470 -defaultsOSRD
+preplace portBus SO2N -pg 1 -lvl 0 -x -40 -y 1490 -defaultsOSRD
+preplace portBus SO2P -pg 1 -lvl 0 -x -40 -y 1510 -defaultsOSRD
+preplace portBus SO3N -pg 1 -lvl 0 -x -40 -y 1530 -defaultsOSRD
+preplace portBus SO3P -pg 1 -lvl 0 -x -40 -y 1550 -defaultsOSRD
+preplace portBus TRG_N -pg 1 -lvl 7 -x 3760 -y 1240 -defaultsOSRD
+preplace portBus TRG_P -pg 1 -lvl 7 -x 3760 -y 1260 -defaultsOSRD
+preplace portBus CLK_CFG -pg 1 -lvl 7 -x 3760 -y 1930 -defaultsOSRD
+preplace portBus CLKSOIN_P -pg 1 -lvl 7 -x 3760 -y 980 -defaultsOSRD
+preplace portBus CLKSOIN_N -pg 1 -lvl 7 -x 3760 -y 1000 -defaultsOSRD
+preplace portBus BX_SYNC_TRG_P -pg 1 -lvl 7 -x 3760 -y 1540 -defaultsOSRD
+preplace portBus BX_SYNC_TRG_N -pg 1 -lvl 7 -x 3760 -y 1560 -defaultsOSRD
+preplace portBus HBTRG_P -pg 1 -lvl 7 -x 3760 -y 1580 -defaultsOSRD
+preplace portBus HBTRG_N -pg 1 -lvl 7 -x 3760 -y 1600 -defaultsOSRD
+preplace portBus HRSTB_N -pg 1 -lvl 7 -x 3760 -y 1620 -defaultsOSRD
+preplace portBus HRSTB_P -pg 1 -lvl 7 -x 3760 -y 1640 -defaultsOSRD
+preplace portBus CTS -pg 1 -lvl 7 -x 3760 -y 200 -defaultsOSRD
+preplace portBus POL -pg 1 -lvl 7 -x 3760 -y 220 -defaultsOSRD
+preplace portBus CG0 -pg 1 -lvl 7 -x 3760 -y 160 -defaultsOSRD
+preplace portBus CG1 -pg 1 -lvl 7 -x 3760 -y 180 -defaultsOSRD
+preplace portBus DIP_SW -pg 1 -lvl 0 -x -40 -y 1990 -defaultsOSRD
+preplace portBus GPIOP -pg 1 -lvl 0 -x -40 -y 1920 -defaultsOSRD
+preplace portBus GPION -pg 1 -lvl 0 -x -40 -y 1900 -defaultsOSRD
+preplace inst led_module -pg 1 -lvl 4 -x 2070 -y 1902 -defaultsOSRD
+preplace inst reset -pg 1 -lvl 3 -x 1370 -y 1770 -defaultsOSRD
+preplace inst reg_bram -pg 1 -lvl 6 -x 3610 -y 1810 -defaultsOSRD
+preplace inst SAMPA_I2C_wrapper -pg 1 -lvl 4 -x 2070 -y 1030 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 6 -x 3610 -y 1930 -defaultsOSRD
+preplace inst appUnit -pg 1 -lvl 4 -x 2070 -y 730 -defaultsOSRD
+preplace inst fnet_wrapper -pg 1 -lvl 5 -x 3270 -y 1820 -defaultsOSRD
+preplace inst clock_wrapper -pg 1 -lvl 2 -x 530 -y 1672 -defaultsOSRD
+preplace inst SO_receiver -pg 1 -lvl 4 -x 2070 -y 1560 -defaultsOSRD
+preplace inst trg_en -pg 1 -lvl 4 -x 2070 -y 1250 -defaultsOSRD
+preplace inst intercon_wrapper -pg 1 -lvl 5 -x 3270 -y 1460 -defaultsOSRD
+preplace inst OBUFDS_CLKSOIN_0 -pg 1 -lvl 6 -x 3610 -y 990 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -x 1370 -y 1270 -defaultsOSRD
+preplace inst bits_to_n_samples_0 -pg 1 -lvl 3 -x 1370 -y 500 -defaultsOSRD
+preplace inst Const_wrapper -pg 1 -lvl 6 -x 3610 -y 1590 -defaultsOSRD
+preplace inst SAMPA_PON_v1_0_0 -pg 1 -lvl 4 -x 2070 -y 210 -defaultsOSRD
+preplace inst GPIO_rx_0 -pg 1 -lvl 3 -x 1370 -y 1940 -defaultsOSRD
+preplace inst GPIO_Slicer -pg 1 -lvl 1 -x 150 -y 1910 -defaultsOSRD
+preplace inst led_module|util_vector_logic_0 -pg 1 -lvl 1 -x 2150 -y 2092 -defaultsOSRD
+preplace inst led_module|xlconstant_0 -pg 1 -lvl 1 -x 2150 -y 2322 -defaultsOSRD
+preplace inst led_module|LED_REG_READ_SEPARAT_0 -pg 1 -lvl 2 -x 2570 -y 1912 -defaultsOSRD
+preplace inst led_module|LED_REG_READ_SEPARAT_1 -pg 1 -lvl 2 -x 2570 -y 2112 -defaultsOSRD
+preplace inst led_module|u_led_inst_0 -pg 1 -lvl 2 -x 2570 -y 2382 -defaultsOSRD
+preplace inst clock_wrapper|clk_wiz_1 -pg 1 -lvl 2 -x 800 -y 1642 -defaultsOSRD
+preplace inst clock_wrapper|clk_wiz_0 -pg 1 -lvl 1 -x 580 -y 1752 -defaultsOSRD
+preplace inst clock_wrapper|clk_wiz_2 -pg 1 -lvl 2 -x 800 -y 1912 -defaultsOSRD
+preplace netloc BASECLK_1 1 0 2 NJ 1650 300J
+preplace netloc Const_wrapper_BX_SYNC_TRG_N 1 6 1 NJ 1560
+preplace netloc Const_wrapper_BX_SYNC_TRG_P 1 6 1 NJ 1540
+preplace netloc Const_wrapper_HBTRG_N 1 6 1 NJ 1600
+preplace netloc Const_wrapper_HBTRG_P 1 6 1 NJ 1580
+preplace netloc Const_wrapper_HRSTB_N 1 6 1 NJ 1620
+preplace netloc Const_wrapper_HRSTB_P 1 6 1 NJ 1640
+preplace netloc DIP_SW_1 1 0 4 -10J 1420 NJ 1420 NJ 1420 1680J
+preplace netloc GPIOP_1 1 0 1 NJ 1920
+preplace netloc Net 1 4 3 NJ 1040 3470J 1080 NJ
+preplace netloc Net1 1 4 3 NJ 1060 NJ 1060 NJ
+preplace netloc OBUFDS_CLKSOIN_0_ON 1 6 1 NJ 1000
+preplace netloc OBUFDS_CLKSOIN_0_OP 1 6 1 NJ 980
+preplace netloc PUSH_SW_1 1 0 3 0J 1430 NJ 1430 1070J
+preplace netloc SAMPA_PON_v1_0_0_cg0 1 4 3 NJ 160 NJ 160 NJ
+preplace netloc SAMPA_PON_v1_0_0_cg1 1 4 3 NJ 180 NJ 180 NJ
+preplace netloc SAMPA_PON_v1_0_0_cts 1 4 3 NJ 200 NJ 200 NJ
+preplace netloc SAMPA_PON_v1_0_0_n_samp_0 1 2 3 1160 410 1770J 420 2950
+preplace netloc SAMPA_PON_v1_0_0_n_samp_1 1 2 3 1170 430 NJ 430 2940
+preplace netloc SAMPA_PON_v1_0_0_pol 1 4 3 NJ 220 NJ 220 NJ
+preplace netloc SAMPA_PON_v1_0_0_pretrigger_select 1 3 2 1770 440 2930
+preplace netloc SAMPA_PON_v1_0_0_sampa_power_on 1 3 4 1730 470 3040 120 NJ 120 3740J
+preplace netloc SFP0RXN_1 1 0 5 NJ 2010 290J 2040 NJ 2040 1570J 2602 3070J
+preplace netloc SFP0RXP_1 1 0 5 NJ 2070 NJ 2070 NJ 2070 1550J 2612 3110J
+preplace netloc SFP_CLK_N_1 1 0 5 NJ 2050 NJ 2050 NJ 2050 1580J 2582 3090J
+preplace netloc SFP_CLK_P_1 1 0 5 NJ 2030 NJ 2030 NJ 2030 1590J 2592 3080J
+preplace netloc SO0N_1 1 0 4 NJ 1450 NJ 1450 NJ 1450 NJ
+preplace netloc SO0P_1 1 0 4 NJ 1470 NJ 1470 NJ 1470 NJ
+preplace netloc SO0_1 1 3 2 1750 1350 2910
+preplace netloc SO1N_1 1 0 4 -20J 1440 NJ 1440 1090J 1430 NJ
+preplace netloc SO1P_1 1 0 4 NJ 1410 NJ 1410 NJ 1410 NJ
+preplace netloc SO1_1 1 3 2 1740 1760 2920
+preplace netloc SO2N_1 1 0 4 NJ 1490 NJ 1490 NJ 1490 NJ
+preplace netloc SO2P_1 1 0 4 -20J 1480 NJ 1480 NJ 1480 1720J
+preplace netloc SO2_1 1 3 2 1760 1160 2940
+preplace netloc SO3N_1 1 0 4 10J 1502 NJ 1502 NJ 1502 1710J
+preplace netloc SO3P_1 1 0 4 20J 1512 NJ 1512 NJ 1512 1670J
+preplace netloc SO3_1 1 3 2 1820 490 2950
+preplace netloc SO_receiver_ready 1 2 3 1150 420 1730J 450 2990
+preplace netloc SO_receiver_trg 1 3 2 1820 1340 2930
+preplace netloc areset_1 1 3 1 1610 1650n
+preplace netloc clk25_in_0_1 1 2 3 1060J 1640 1640J 1770 3030
+preplace netloc clk_enable_1MHz_1 1 3 2 1820 1120 2960
+preplace netloc clk_enable_1kHz_1 1 3 2 1810 1110 2970
+preplace netloc clk_in_0_1 1 2 4 1140 1630 1620 2622 3050 1960 3490J
+preplace netloc clk_wiz_0_clk_out1 1 2 2 1050J 1190 1550
+preplace netloc clk_wiz_1_clk_out1 1 2 4 1130 1570 1660 1150 3020J 990 NJ
+preplace netloc clock_wrapper_clk_out6 1 2 2 1150 1590 N
+preplace netloc dest_clk1_1 1 2 2 1170 1870 1720
+preplace netloc event_reset_1 1 2 4 1160 590 1560 480 NJ 480 3430
+preplace netloc fnet_txn_1 1 3 3 1820 2652 NJ 2652 3430
+preplace netloc fnet_wrapper_SFP0TXN 1 5 2 3450J 1710 NJ
+preplace netloc fnet_wrapper_SFP0TXP 1 5 2 3440J 1990 3740J
+preplace netloc independent_clock_0_1 1 2 3 1120J 1660 1630J 1780 3040
+preplace netloc internal_enabled_1 1 3 2 1790 1130 3000
+preplace netloc led_module_LED 1 4 3 NJ 2402 3480J 1720 3730J
+preplace netloc n_samples_1 1 3 1 1690 500n
+preplace netloc reset_peripheral_aresetn3 1 3 1 1700 1670n
+preplace netloc reset_peripheral_aresetn4 1 3 1 1710 1690n
+preplace netloc rst_clk_wiz_0_125M_peripheral_aresetn 1 3 3 1650 2642 3060 1670 3460J
+preplace netloc threshold_1 1 3 2 1800 1140 2980
+preplace netloc trg_en_TRG_N 1 4 3 NJ 1240 NJ 1240 NJ
+preplace netloc trg_en_TRG_P 1 4 3 NJ 1260 NJ 1260 NJ
+preplace netloc trg_en_sampa_trg_en 1 2 3 1170 1200 1720J 1330 2910
+preplace netloc util_vector_logic_0_Res 1 3 1 1560 710n
+preplace netloc vio_0_probe_out0 1 3 2 1560 2632 3100J
+preplace netloc xlconstant_0_dout 1 6 1 NJ 1930
+preplace netloc GPIO_rx_0_GPIO 1 3 1 1690 870n
+preplace netloc clk1_1 1 2 2 1100J 1180 1600
+preplace netloc GPION_0_1 1 0 1 NJ 1900
+preplace netloc GPIO_Slicer_Dout 1 1 2 280J 1522 1110
+preplace netloc GPIO_Slicer_Dout1 1 1 2 290J 1532 1090
+preplace netloc EXT_CLK_N_1 1 1 1 290 1912n
+preplace netloc EXT_CLK_P_1 1 1 1 290 1932n
+preplace netloc SAMPA_PON_v1_0_0_ext_clk_en 1 3 2 1780 460 2910
+preplace netloc clock_wrapper_locked 1 2 2 1080J 1650 1600
+preplace netloc S03_AXI_1 1 4 1 3100 60n
+preplace netloc SAMPA_I2C_wrapper_m00_axi 1 4 1 3060 1000n
+preplace netloc SAMPA_I2C_wrapper_m00_axi1 1 4 1 3030 1020n
+preplace netloc SO_receiver_m00_axi 1 4 1 N 1500
+preplace netloc S_AXI1_1 1 5 1 3470 1460n
+preplace netloc S_AXI_1 1 5 1 N 1780
+preplace netloc appUnit_M_AXIS_data 1 4 1 3040 730n
+preplace netloc led_module_m00_axi 1 4 1 3000 1400n
+preplace netloc led_module_m00_axi1 1 4 1 3010 1420n
+preplace netloc trg_en_m00_axi 1 4 1 3020 1220n
+preplace netloc led_module|DIP_SW_1 1 0 2 NJ 2462 2300
+preplace netloc led_module|LED_REG_READ_SEPARAT_0_LED_REG 1 1 2 2370 2552 2780
+preplace netloc led_module|LED_REG_READ_SEPARAT_0_m00_axi_txn_done 1 0 3 1990 2002 NJ 2002 2760
+preplace netloc led_module|LED_REG_READ_SEPARAT_1_LED_REG 1 1 2 2360 2022 2760
+preplace netloc led_module|LED_REG_READ_SEPARAT_1_m00_axi_txn_done 1 0 3 2000 2012 NJ 2012 2770
+preplace netloc led_module|clk125MHz_1 1 0 2 NJ 2202 2340
+preplace netloc led_module|fnet_txn_1 1 0 2 NJ 2242 2320
+preplace netloc led_module|m00_axi_aresetn_1 1 0 2 1990J 2172 2300
+preplace netloc led_module|power_on_1 1 0 2 NJ 2262 2300
+preplace netloc led_module|reset_1 1 0 2 NJ 2182 2330
+preplace netloc led_module|u_led_inst_0_INIT_AXI_TXN 1 1 2 2350 2212 2760
+preplace netloc led_module|u_led_inst_0_INIT_AXI_TXN_SUB 1 1 2 2370 2202 2770
+preplace netloc led_module|u_led_inst_0_LED 1 2 1 N 2402
+preplace netloc led_module|util_vector_logic_0_Res 1 1 1 2310 2092n
+preplace netloc led_module|xlconstant_0_dout 1 1 1 2340J 2312n
+preplace netloc led_module|ext_clk_lkd_1 1 0 2 2000J 2452 2340
+preplace netloc led_module|Conn1 1 2 1 N 1882
+preplace netloc led_module|Conn2 1 2 1 N 2082
+preplace netloc clock_wrapper|BASECLK_1 1 0 1 N 1752
+preplace netloc clock_wrapper|clk_wiz_0_clk_out1 1 1 2 680 1712 NJ
+preplace netloc clock_wrapper|clk_wiz_0_clk_out2 1 1 2 N 1732 NJ
+preplace netloc clock_wrapper|clk_wiz_0_clk_out3 1 1 2 N 1752 NJ
+preplace netloc clock_wrapper|clk_wiz_0_clk_out4 1 1 2 N 1772 NJ
+preplace netloc clock_wrapper|clk_wiz_0_clk_out5 1 1 2 680 1832 NJ
+preplace netloc clock_wrapper|clk_wiz_1_clk_out1 1 2 1 930 1632n
+preplace netloc clock_wrapper|clk_wiz_1_clk_out2 1 2 1 920 1652n
+preplace netloc clock_wrapper|clk_wiz_2_clk_out1 1 2 1 N 1902
+preplace netloc clock_wrapper|EXT_CLK_N_1 1 0 2 NJ 1912 N
+preplace netloc clock_wrapper|EXT_CLK_P_1 1 0 2 NJ 1932 N
+preplace netloc clock_wrapper|clk_wiz_2_locked 1 2 1 N 1922
+preplace cgraphic comment_2 place top 7 42 textcolor 4 linecolor 3
+preplace cgraphic comment_1 place top 6 -206 textcolor 4 linecolor 3
+preplace cgraphic comment_0 place top 0 0 textcolor 4 linecolor 3
+levelinfo -pg 1 -40 150 530 1370 2070 3270 3610 3760
+levelinfo -hier led_module * 2150 2570 *
+levelinfo -hier clock_wrapper * 580 800 *
+pagesize -pg 1 -db -bbox -sgen -180 0 3970 2670
+pagesize -hier led_module -db -bbox -sgen 1960 1812 2810 2562
+pagesize -hier clock_wrapper -db -bbox -sgen 450 1562 960 1992
+",
+   "linktoobj_comment_0":"",
+   "linktoobj_comment_1":"",
+   "linktoobj_comment_2":"",
+   "linktotype_comment_0":"bd_design",
+   "linktotype_comment_1":"bd_design",
+   "linktotype_comment_2":"bd_design"
+}
+{
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_axi4_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"24",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_board_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"4",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_clkrst_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"20",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_board_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_clkrst_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_clkrst_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_clkrst_cnt""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""da_axi4_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"2",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""da_axi4_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """"""""""""""""""""""""""""""""""""""""""""""""""""""da_clkrst_cnt"""""""""""""""""""""""""""""""""""""""""""""""""""""":"1",
+   """"""""""""""""""da_clkrst_cnt"""""""""""""""""":"1"
+}
+{
+   "/comment_5":"comment_1",
+   "/comment_6":"comment_2",
+   "/comment_8":"comment_0"
+}

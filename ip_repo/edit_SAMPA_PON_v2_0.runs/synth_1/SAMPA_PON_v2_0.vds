@@ -1,0 +1,256 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Jan 11 19:23:08 2025
+# Process ID: 237432
+# Current directory: /home/nagafusa/work/spadi/Fakernet/ip_repo/edit_SAMPA_PON_v2_0.runs/synth_1
+# Command line: vivado -log SAMPA_PON_v2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SAMPA_PON_v2_0.tcl
+# Log file: /home/nagafusa/work/spadi/Fakernet/ip_repo/edit_SAMPA_PON_v2_0.runs/synth_1/SAMPA_PON_v2_0.vds
+# Journal file: /home/nagafusa/work/spadi/Fakernet/ip_repo/edit_SAMPA_PON_v2_0.runs/synth_1/vivado.jou
+# Running On: e16fpga01, OS: Linux, CPU Frequency: 3000.000 MHz, CPU Physical cores: 32, Host memory: 66513 MB
+#-----------------------------------------------------------
+source SAMPA_PON_v2_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_Controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/start_i2c_write_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.2/data/ip'.
+Command: synth_design -top SAMPA_PON_v2_0 -part xcau15p-sbvb484-1-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 237456
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1637.945 ; gain = 313.832 ; free physical = 43649 ; free virtual = 62360
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1001.119; parent = 810.835; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2606.453; parent = 1637.949; children = 968.504
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SAMPA_PON_v2_0' [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'SAMPA_PON_v2_0_S00_AXI' [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0_S00_AXI.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'SAMPA_PON_v2_0_S00_AXI' (0#1) [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'SAMPA_PON_v2_0' (0#1) [/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_2_0/hdl/SAMPA_PON_v2_0.v:4]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module SAMPA_PON_v2_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1706.914 ; gain = 382.801 ; free physical = 43735 ; free virtual = 62447
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1001.119; parent = 810.835; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2675.422; parent = 1706.918; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1724.727 ; gain = 400.613 ; free physical = 43726 ; free virtual = 62439
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1001.119; parent = 810.835; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2693.234; parent = 1724.730; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcau15p-sbvb484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xcau15p-sbvb484-1-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1741.637 ; gain = 417.523 ; free physical = 43724 ; free virtual = 62436
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1001.119; parent = 810.835; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2710.145; parent = 1741.641; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1741.637 ; gain = 417.523 ; free physical = 43717 ; free virtual = 62430
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1001.119; parent = 810.835; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2710.145; parent = 1741.641; children = 968.504
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   4 Input   32 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 576 (col length:72)
+BRAMs: 288 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module SAMPA_PON_v2_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module SAMPA_PON_v2_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module SAMPA_PON_v2_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module SAMPA_PON_v2_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module SAMPA_PON_v2_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module SAMPA_PON_v2_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43194 ; free virtual = 61941
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1434.359; parent = 1244.679; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.086; parent = 1247.427; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43189 ; free virtual = 61936
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.086; parent = 1247.427; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.145; parent = 1247.485; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.160; parent = 1247.501; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.262; parent = 1247.603; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.262; parent = 1247.603; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.277; parent = 1247.618; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.293; parent = 1247.634; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     1|
+|4     |LUT3 |     1|
+|5     |LUT4 |    20|
+|6     |LUT6 |    34|
+|7     |FDRE |   169|
+|8     |FDSE |     1|
+|9     |IBUF |    47|
+|10    |OBUF |    42|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------------------+-----------------------+------+
+|      |Instance                      |Module                 |Cells |
++------+------------------------------+-----------------------+------+
+|1     |top                           |                       |   317|
+|2     |  SAMPA_PON_v2_0_S00_AXI_inst |SAMPA_PON_v2_0_S00_AXI |   227|
++------+------------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43190 ; free virtual = 61937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1437.340; parent = 1247.681; children = 190.284
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3046.652; parent = 2078.148; children = 968.504
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.145 ; gain = 754.031 ; free physical = 43192 ; free virtual = 61939
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2078.152 ; gain = 754.031 ; free physical = 43192 ; free virtual = 61939
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2085.105 ; gain = 0.000 ; free physical = 43299 ; free virtual = 62046
+INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2165.816 ; gain = 0.000 ; free physical = 43259 ; free virtual = 62008
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 48 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 47 instances
+
+Synth Design complete, checksum: d5f9393
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2165.816 ; gain = 841.703 ; free physical = 43473 ; free virtual = 62222
+INFO: [Common 17-1381] The checkpoint '/home/nagafusa/work/spadi/Fakernet/ip_repo/edit_SAMPA_PON_v2_0.runs/synth_1/SAMPA_PON_v2_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SAMPA_PON_v2_0_utilization_synth.rpt -pb SAMPA_PON_v2_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 11 19:23:20 2025...

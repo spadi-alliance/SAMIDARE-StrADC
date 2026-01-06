@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER SAMPA_PON
+	OPTION supported_peripherals = (SAMPA_PON);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = SAMPA_PON;
+END DRIVER

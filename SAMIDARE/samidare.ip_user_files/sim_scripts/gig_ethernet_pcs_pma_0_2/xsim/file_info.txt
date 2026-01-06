@@ -1,0 +1,6 @@
+gig_ethernet_pcs_pma_0_transceiver.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_transceiver.v,
+gig_ethernet_pcs_pma_0_reset_sync.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_reset_sync.v,
+gig_ethernet_pcs_pma_0_sync_block.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_sync_block.v,
+gig_ethernet_pcs_pma_0_block.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_block.v,
+gig_ethernet_pcs_pma_0.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,14 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xcau15p-sbvb484-1-i",
+      "gen_directory": "../../../../samidare.gen/sources_1/bd/BRAM_REGISTER",
+      "name": "BRAM_REGISTER",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {}
+  }
+}

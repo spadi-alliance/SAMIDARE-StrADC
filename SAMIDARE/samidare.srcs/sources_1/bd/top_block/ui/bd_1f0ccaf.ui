@@ -1,0 +1,62 @@
+{
+   "/comment_6":"comment_0",
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"2.63902",
+   "Default View_TopLeft":"-200,-20",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port m00_axi -pg 1 -lvl 2 -x 440 -y 60 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -50 -y 220 -defaultsOSRD
+preplace port port-id_idelay_refclk -pg 1 -lvl 0 -x -50 -y 20 -defaultsOSRD
+preplace port port-id_trg -pg 1 -lvl 2 -x 440 -y 470 -defaultsOSRD
+preplace port port-id_m00_axi_aclk -pg 1 -lvl 0 -x -50 -y 90 -defaultsOSRD
+preplace port port-id_m00_axi_aresetn -pg 1 -lvl 0 -x -50 -y 120 -defaultsOSRD
+preplace port port-id_areset -pg 1 -lvl 0 -x -50 -y 280 -defaultsOSRD
+preplace port port-id_areset_ref -pg 1 -lvl 0 -x -50 -y 550 -defaultsOSRD
+preplace port port-id_idelay_refclk2 -pg 1 -lvl 0 -x -50 -y 250 -defaultsOSRD
+preplace port port-id_ready -pg 1 -lvl 2 -x 440 -y 500 -defaultsOSRD
+preplace portBus SO1P -pg 1 -lvl 0 -x -50 -y 370 -defaultsOSRD
+preplace portBus SO1N -pg 1 -lvl 0 -x -50 -y 400 -defaultsOSRD
+preplace portBus SO0N -pg 1 -lvl 0 -x -50 -y 340 -defaultsOSRD
+preplace portBus SO0P -pg 1 -lvl 0 -x -50 -y 310 -defaultsOSRD
+preplace portBus SO2N -pg 1 -lvl 0 -x -50 -y 460 -defaultsOSRD
+preplace portBus SO2P -pg 1 -lvl 0 -x -50 -y 430 -defaultsOSRD
+preplace portBus SO3N -pg 1 -lvl 0 -x -50 -y 520 -defaultsOSRD
+preplace portBus SO3P -pg 1 -lvl 0 -x -50 -y 490 -defaultsOSRD
+preplace portBus IBUF_OUT1 -pg 1 -lvl 2 -x 440 -y 320 -defaultsOSRD
+preplace portBus IBUF_OUT3 -pg 1 -lvl 2 -x 440 -y 380 -defaultsOSRD
+preplace portBus IBUF_OUT2 -pg 1 -lvl 2 -x 440 -y 350 -defaultsOSRD
+preplace portBus IBUF_OUT0 -pg 1 -lvl 2 -x 440 -y 290 -defaultsOSRD
+preplace portBus areset_ref2 -pg 1 -lvl 0 -x -50 -y 580 -defaultsOSRD
+preplace inst delay_adjust_init_v1_0 -pg 1 -lvl 1 -x 220 -y 90 -defaultsOSRD
+preplace inst idelay_top_v2_0 -pg 1 -lvl 1 -x 220 -y 390 -defaultsOSRD
+preplace netloc SO0N_1 1 0 1 -10J 340n
+preplace netloc SO0P_1 1 0 1 10J 310n
+preplace netloc SO1N_1 1 0 1 -30J 400n
+preplace netloc SO1P_1 1 0 1 -20J 370n
+preplace netloc SO2N_1 1 0 1 NJ 460
+preplace netloc SO2P_1 1 0 1 -20J 430n
+preplace netloc SO3N_1 1 0 1 30J 500n
+preplace netloc SO3P_1 1 0 1 10J 480n
+preplace netloc areset_1 1 0 1 N 280
+preplace netloc areset_ref2_1 1 0 1 20 320n
+preplace netloc areset_ref_1 1 0 1 0 300n
+preplace netloc clk_1 1 0 1 N 220
+preplace netloc delay_adjust_init_v1_0_init_adjust 1 0 2 40 620 400
+preplace netloc idelay_refclk2_1 1 0 1 20 250n
+preplace netloc idelay_refclk_1 1 0 1 40 20n
+preplace netloc idelay_top_v2_0_SO0_out 1 1 1 NJ 290
+preplace netloc idelay_top_v2_0_SO1_out 1 1 1 420J 310n
+preplace netloc idelay_top_v2_0_SO2_out 1 1 1 420J 330n
+preplace netloc idelay_top_v2_0_SO3_out 1 1 1 410J 350n
+preplace netloc idelay_top_v2_0_ready 1 1 1 410 470n
+preplace netloc idelay_top_v2_0_trg 1 1 1 420J 470n
+preplace netloc m00_axi_aclk_1 1 0 1 NJ 90
+preplace netloc m00_axi_aresetn_1 1 0 1 20J 110n
+preplace netloc delay_adjust_init_v1_0_m00_axi 1 1 1 NJ 60
+levelinfo -pg 1 -50 220 440
+pagesize -pg 1 -db -bbox -sgen -220 0 610 630
+"
+}
+0
