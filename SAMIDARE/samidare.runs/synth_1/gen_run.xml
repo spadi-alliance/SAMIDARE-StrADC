@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xcau15p-sbvb484-1-i" LaunchTime="1764549456">
+  <File Type="VDS-TIMINGSUMMARY" Name="top_block_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="top_block_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="top_block_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="top_block_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_block_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="top_block_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="top_block_wrapper_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="top_block_wrapper_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="top_block_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED_REG_READ_SEPARATE_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED_REG_READ_SEPARATE_v1_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/u_led_inst.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/samidare_v0_20240515/samidare_v0_20240515.srcs/sources_1/imports/new/u_led_inst.v"/>
+        <Attr Name="ImportTime" Val="1715392690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/iobuf_vhdl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/I2C_Controller_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/I2C_Controller_v1_0_M00_AXI.v"/>
+        <Attr Name="ImportTime" Val="1744094258"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/I2C_Controller_v1_0_M01_AXI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/I2C_Controller_v1_0_M01_AXI.v"/>
+        <Attr Name="ImportTime" Val="1723775877"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/I2C_Controller_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/I2C_Controller_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1744354036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_TRG_EN_1_0/hdl/SAMPA_TRG_EN_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/SAMPA_TRG_EN_1_0/hdl/SAMPA_TRG_EN_v1_0_M00_AXI.v"/>
+        <Attr Name="ImportTime" Val="1744166916"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/init_i2c_1_0/hdl/init_i2c_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/init_i2c_1_0/hdl/init_i2c_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1744181172"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cs_appunit_fifo_out.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/data_sender_1_0/hdl/data_sender_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/data_sender_1_0/hdl/data_sender_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1739085980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cs_fifo_slicer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cs_appunit_merge.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/trigger_manager.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/cs_event_builder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/cs_event_builder.v"/>
+        <Attr Name="ImportTime" Val="1744702363"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/cs_data_processor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/new/cs_data_processor.v"/>
+        <Attr Name="ImportTime" Val="1744702363"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/cs_das_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/imports/new/cs_das_rx.v"/>
+        <Attr Name="ImportTime" Val="1744702363"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/threshold_comparator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/mii_init.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/mii_init.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RESET_INST.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_0_gt/gig_ethernet_pcs_pma_0_gt.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/project_20240605/project_20240605.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_gt/gig_ethernet_pcs_pma_0_gt.xci"/>
+        <Attr Name="ImportTime" Val="1717578304"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_clocking.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_clocking.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_reset_sync_ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_reset_sync_ex.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_resets.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_resets.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_support.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_support.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_sync_block_ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_sync_block_ex.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_tx_elastic_buffer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_tx_elastic_buffer.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/gig_ethernet_pcs_pma_0_example_design.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/gig_ethernet_pcs_pma_0_example_design.v"/>
+        <Attr Name="ImportTime" Val="1720156356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_switch.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_records.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_records.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_util_pkg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_util_pkg.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/text_config_data.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/text_config_data.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/common/efb_xilinx_dna_port.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/common/efb_xilinx_dna_port.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_data_array_inject.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_data_array_inject.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_reg_counters.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_reg_counters.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/common/efb_sim_events.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/common/efb_sim_events.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_ram_block_data.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_ram_block_data.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/common/efb_lmd_format_events.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/common/efb_lmd_format_events.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/common/efb_lmd_buffer_events.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/common/efb_lmd_buffer_events.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_crc32.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_crc32.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_in_state.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_in_state.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_dyn_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_dyn_control.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_ntp_query_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_ntp_query_control.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_mon_pkt_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_mon_pkt_control.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_packet_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_packet_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_out_state.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_out_state.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_out_pipeline.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_out_pipeline.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_regaccess.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_regaccess.vhd"/>
+        <Attr Name="ImportTime" Val="1723775879"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_ram_block_a11d16.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_ram_block_a11d16.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_local_reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_local_reg.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_tcp_state.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_tcp_state.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_tcp_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_tcp_control.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_tcp_prepare.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_tcp_prepare.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_tcp_buffer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_tcp_buffer.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_test_datagen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_test_datagen.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_ram_block_stat.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_ram_block_stat.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_regacc_aux_stat.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_regacc_aux_stat.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_mdio.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_mdio.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fakernet_module.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fakernet_module.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/efb_common_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/efb_common_top.vhd"/>
+        <Attr Name="ImportTime" Val="1736583646"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_rx_speed_sense.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_rx_speed_sense.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_octet_to_word.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_octet_to_word.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/vhdl/fnet_async_fifo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/vhdl/fnet_async_fifo.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_word_in_fifo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_word_in_fifo.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_gmii_mii_rx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_gmii_mii_rx.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_word_out_fifo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_word_out_fifo.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_word_to_octet.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_word_to_octet.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/ddr/efnet_xilinx_oddr_by_oddr2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/ddr/efnet_xilinx_oddr_by_oddr2.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/extra_vhdl/efnet_gmii_mii_tx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/extra_vhdl/efnet_gmii_mii_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/fakernet_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/fakernet_top.vhd"/>
+        <Attr Name="ImportTime" Val="1720157403"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/native_to_axi_lite_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/native_to_axi_lite_v1_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/data_receiver_1_0/hdl/data_receiver_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/data_receiver_1_0/hdl/data_receiver_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1739085980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/delay_adjust_init_1_0/hdl/delay_adjust_init_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/delay_adjust_init_1_0/hdl/delay_adjust_init_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1744541935"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_controller_v2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_controller_v2.v"/>
+        <Attr Name="ImportTime" Val="1744548986"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_impl_v2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_impl_v2.v"/>
+        <Attr Name="ImportTime" Val="1744621826"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_impl_v2_normal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_impl_v2_normal.v"/>
+        <Attr Name="ImportTime" Val="1744621782"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_top_v2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_top_v2.v"/>
+        <Attr Name="ImportTime" Val="1744637379"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_TRG_EN_1_0/hdl/SAMPA_TRG_EN_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/SAMPA_TRG_EN_1_0/hdl/SAMPA_TRG_EN_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1744526152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OBUFDS_TRG.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TRG_MODULE.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OBUFDS_CLKSOIN.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bits_to_n_samples.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/OBUFDS_CONST.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/SAMPA_PON_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/SAMPA_PON_v1_0_M00_AXI.v"/>
+        <Attr Name="ImportTime" Val="1744124030"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/SAMIDARE/imports/SAMPA_PON_v1_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/imports/SAMPA_PON_v1_0.v"/>
+        <Attr Name="ImportTime" Val="1744124290"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GPIO_rx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cs_ccd_dflop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cs_clk_sel.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/top_block/top_block.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/top_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/bd/top_block/hdl/top_block_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1744640400"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_0_gt.xcix">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/project_20240605/project_20240605.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_gt.xcix"/>
+        <Attr Name="ImportTime" Val="1717588244"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/as_fifo_4_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/as_fifo_4_tb.v"/>
+        <Attr Name="ImportTime" Val="1744702363"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/das_rx.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xpm_fifo_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_processor.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/data_sender_1_0/hdl/data_sender_v1_0_M00_AXIS.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/data_sender_1_0/hdl/data_sender_v1_0_M00_AXIS.v"/>
+        <Attr Name="ImportTime" Val="1739085980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/event_builder_v0_1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/lib/fakernet/data_gen_user.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lib/fakernet/data_gen_user.vhd"/>
+        <Attr Name="ImportTime" Val="1720156256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/data_receiver_1_0/hdl/data_receiver_v1_0_S00_AXIS.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/data_receiver_1_0/hdl/data_receiver_v1_0_S00_AXIS.v"/>
+        <Attr Name="ImportTime" Val="1744629538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/GPIO_Controller.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_controller.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_controller.v"/>
+        <Attr Name="ImportTime" Val="1738936256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_impl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_impl.v"/>
+        <Attr Name="ImportTime" Val="1739149592"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/event_builder_v0.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/u_data_generator.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/samidare_v0_20240515/samidare_v0_20240515.srcs/sources_1/new/u_data_generator.v"/>
+        <Attr Name="ImportTime" Val="1717554349"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top_level.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/samidare_v0_20240515/samidare_v0_20240515.srcs/sources_1/imports/new/top_level.v"/>
+        <Attr Name="ImportTime" Val="1717565880"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BRAM_REGISTER/BRAM_REGISTER.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED_REG_READ_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/LED_REG_READ_v1_0.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/signal_delay.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/iicbuf_block/iicbuf_block.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/XPM_FIFO_WRAPPER.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/delayAdjust.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/idelay_adjust.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/idelay_top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../idelay_top.v"/>
+        <Attr Name="ImportTime" Val="1738936256"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/init_i2c_1_0/hdl/init_i2c_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/init_i2c_1_0/hdl/init_i2c_v1_0_M00_AXI.v"/>
+        <Attr Name="ImportTime" Val="1741354032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/nagafusa/work/spadi/Fakernet/ip_repo/delay_adjust_init_1_0/hdl/delay_adjust_init_v1_0_M00_AXI.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ip_repo/delay_adjust_init_1_0/hdl/delay_adjust_init_v1_0_M00_AXI.v"/>
+        <Attr Name="ImportTime" Val="1744362471"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/top_block/hdl/top_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_block_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/GTH.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/project_20240605/project_20240605.srcs/constrs_1/new/GTH.xdc"/>
+        <Attr Name="ImportTime" Val="1718150967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/main_io.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/project_20240605/project_20240605.srcs/constrs_1/new/main_io.xdc"/>
+        <Attr Name="ImportTime" Val="1718150984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/samidare_io.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../downloads/project_20240605/project_20240605/project_20240605.srcs/constrs_1/new/samidare_io.xdc"/>
+        <Attr Name="ImportTime" Val="1718779681"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/Pblock.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/Timing.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/top_block/ip/top_block_rst_clk_wiz_0_300M1_0/top_block_rst_clk_wiz_0_300M1_0.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="top_block_rst_clk_wiz_0_300M1_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/samidare_io.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design">
+      <Option Id="GatedClockConversion">2</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="gig_ethernet_pcs_pma_0"/>
+</GenRun>

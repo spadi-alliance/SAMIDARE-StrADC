@@ -1,0 +1,12 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../opt/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_fifo.sv,systemverilog,xpm,../../../../../../../../../opt/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv,
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../../opt/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../opt/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhd,
+gig_ethernet_pcs_pma_v16_2_rfs.vhd,vhdl,gig_ethernet_pcs_pma_v16_2_9,../../../ipstatic/hdl/gig_ethernet_pcs_pma_v16_2_rfs.vhd,
+gig_ethernet_pcs_pma_v16_2_rfs.v,verilog,gig_ethernet_pcs_pma_v16_2_9,../../../ipstatic/hdl/gig_ethernet_pcs_pma_v16_2_rfs.v,
+gig_ethernet_pcs_pma_0_transceiver.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_transceiver.v,
+gig_ethernet_pcs_pma_0_reset_sync.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_reset_sync.v,
+gig_ethernet_pcs_pma_0_sync_block.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_sync_block.v,
+gig_ethernet_pcs_pma_0_block.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_block.v,
+gig_ethernet_pcs_pma_0.v,verilog,xil_defaultlib,../../../ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

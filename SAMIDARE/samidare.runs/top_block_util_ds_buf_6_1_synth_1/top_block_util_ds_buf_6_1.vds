@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Aug 15 16:10:08 2024
+# Process ID: 1332858
+# Current directory: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1
+# Command line: vivado -log top_block_util_ds_buf_6_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_block_util_ds_buf_6_1.tcl
+# Log file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1.vds
+# Journal file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/vivado.jou
+# Running On: e16fpga01, OS: Linux, CPU Frequency: 3000.000 MHz, CPU Physical cores: 32, Host memory: 66513 MB
+#-----------------------------------------------------------
+source top_block_util_ds_buf_6_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/SAMPA_PON_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_Controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/start_i2c_write_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/nagafusa/work/spadi/Fakernet/ip_repo/I2C_controller_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: top_block_util_ds_buf_6_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 6238dc610c2aa6db to dir: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.cache/ip/2022.2/6/2/6238dc610c2aa6db/top_block_util_ds_buf_5_0_stub.vhdl to /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.cache/ip/2022.2/6/2/6238dc610c2aa6db/top_block_util_ds_buf_5_0.dcp to /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.cache/ip/2022.2/6/2/6238dc610c2aa6db/top_block_util_ds_buf_5_0_sim_netlist.v to /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.cache/ip/2022.2/6/2/6238dc610c2aa6db/top_block_util_ds_buf_5_0_stub.v to /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.cache/ip/2022.2/6/2/6238dc610c2aa6db/top_block_util_ds_buf_5_0_sim_netlist.vhdl to /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/top_block_util_ds_buf_6_1_synth_1/top_block_util_ds_buf_6_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP top_block_util_ds_buf_6_1, cache-ID = 6238dc610c2aa6db.
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 15 16:10:12 2024...

@@ -1,0 +1,98 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.344",
+   "Default View_TopLeft":"-234,-182",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXIS_data -pg 1 -lvl 9 -x 2990 -y 20 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -70 -y 580 -defaultsOSRD
+preplace port port-id_user_clk -pg 1 -lvl 0 -x -70 -y 170 -defaultsOSRD
+preplace port port-id_event_reset -pg 1 -lvl 0 -x -70 -y 700 -defaultsOSRD
+preplace port port-id_clk125MHz -pg 1 -lvl 0 -x -70 -y 670 -defaultsOSRD
+preplace port port-id_en -pg 1 -lvl 0 -x -70 -y 610 -defaultsOSRD
+preplace port port-id_s_axis_aresetn_0 -pg 1 -lvl 0 -x -70 -y 20 -defaultsOSRD
+preplace port port-id_event_free -pg 1 -lvl 0 -x -70 -y 730 -defaultsOSRD
+preplace port port-id_internal_enabled -pg 1 -lvl 0 -x -70 -y 200 -defaultsOSRD
+preplace port port-id_clk_enable_1kHz -pg 1 -lvl 0 -x -70 -y 350 -defaultsOSRD
+preplace port port-id_clk_enable_1MHz -pg 1 -lvl 0 -x -70 -y 380 -defaultsOSRD
+preplace portBus SO1 -pg 1 -lvl 0 -x -70 -y 490 -defaultsOSRD
+preplace portBus SO3 -pg 1 -lvl 0 -x -70 -y 550 -defaultsOSRD
+preplace portBus SO2 -pg 1 -lvl 0 -x -70 -y 520 -defaultsOSRD
+preplace portBus SO0 -pg 1 -lvl 0 -x -70 -y 290 -defaultsOSRD
+preplace portBus n_samples -pg 1 -lvl 0 -x -70 -y 640 -defaultsOSRD
+preplace portBus GPIOP -pg 1 -lvl 0 -x -70 -y 230 -defaultsOSRD
+preplace portBus GPION -pg 1 -lvl 0 -x -70 -y 260 -defaultsOSRD
+preplace portBus GPIO -pg 1 -lvl 0 -x -70 -y 320 -defaultsOSRD
+preplace inst cs_fifo_slicer_0 -pg 1 -lvl 3 -x 870 -y 210 -defaultsOSRD
+preplace inst FIFO_logic -pg 1 -lvl 4 -x 1350 -y 250 -defaultsOSRD
+preplace inst cs_das_rx_0 -pg 1 -lvl 2 -x 470 -y 540 -defaultsOSRD
+preplace inst cs_appunit_merge_0 -pg 1 -lvl 1 -x 130 -y 470 -defaultsOSRD
+preplace inst cs_data_processor_0 -pg 1 -lvl 5 -x 1730 -y 520 -defaultsOSRD
+preplace inst trigger_manager_0 -pg 1 -lvl 1 -x 130 -y 230 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 8 -x 2830 -y 550 -defaultsOSRD
+preplace inst cs_event_builder_0 -pg 1 -lvl 6 -x 2110 -y 550 -defaultsOSRD
+preplace inst data_sender_v1_0_0 -pg 1 -lvl 7 -x 2500 -y 530 -defaultsOSRD
+preplace netloc GPION_1 1 0 1 10J 240n
+preplace netloc GPIOP_1 1 0 1 10J 220n
+preplace netloc GPIO_1 1 0 1 -50 210n
+preplace netloc asyncfifo_0_mem_full 1 0 5 -10 100 NJ 100 690J 420 1040J 10 1510
+preplace netloc asyncfifo_1_mem_full 1 0 5 -10 660 NJ 660 NJ 660 NJ 660 1500
+preplace netloc asyncfifo_2_mem_full 1 0 5 10 650 NJ 650 680J 640 NJ 640 1490
+preplace netloc asyncfifo_3_mem_full 1 0 5 0 110 NJ 110 660J 430 1120J 20 1490
+preplace netloc clk1_1 1 0 8 NJ 670 NJ 670 660J 630 1210 630 1540 640 1910 690 2300 640 2690
+preplace netloc clk_1 1 0 4 -40J 600 280 680 NJ 680 1160J
+preplace netloc clk_enable_1MHz_1 1 0 1 -20 250n
+preplace netloc clk_enable_1kHz_1 1 0 1 -40 230n
+preplace netloc cs_appunit_fifo_out_0_fifos_empty 1 4 1 1520 240n
+preplace netloc cs_appunit_fifo_out_0_fifos_out 1 4 1 1530 220n
+preplace netloc cs_appunit_merge_0_SOs 1 1 1 250 480n
+preplace netloc cs_appunit_merge_0_fulls 1 1 1 260 460n
+preplace netloc cs_das_rx_0_buses 1 2 1 680 240n
+preplace netloc cs_das_rx_0_reset_fifos 1 2 1 670 200n
+preplace netloc cs_das_rx_0_wr_ens 1 2 1 650 180n
+preplace netloc cs_data_processor_0_bus_sel 1 5 1 1890 490n
+preplace netloc cs_data_processor_0_data_out 1 5 1 1900 480n
+preplace netloc cs_data_processor_0_fifo_req 1 2 4 700 650 NJ 650 NJ 650 1890
+preplace netloc cs_data_processor_0_last_data 1 5 1 1900 550n
+preplace netloc cs_data_processor_0_sample 1 5 1 1940 460n
+preplace netloc cs_data_processor_0_valid 1 5 1 1940 570n
+preplace netloc cs_event_builder_0_busy 1 4 3 1570 710 NJ 710 2280
+preplace netloc cs_event_builder_0_data_ack_reg 1 4 3 1560 720 NJ 720 2290
+preplace netloc cs_fifo_slicer_0_bus_0 1 3 1 1050 300n
+preplace netloc cs_fifo_slicer_0_bus_1 1 3 1 1190 260n
+preplace netloc cs_fifo_slicer_0_bus_2 1 3 1 N 340
+preplace netloc cs_fifo_slicer_0_bus_3 1 3 1 1180 180n
+preplace netloc cs_fifo_slicer_0_request_fifo_0 1 3 1 1060 220n
+preplace netloc cs_fifo_slicer_0_request_fifo_1 1 3 1 N 240
+preplace netloc cs_fifo_slicer_0_request_fifo_2 1 3 1 1070 260n
+preplace netloc cs_fifo_slicer_0_request_fifo_3 1 3 1 1140 160n
+preplace netloc cs_fifo_slicer_0_reset_fifo_0 1 3 1 1080 140n
+preplace netloc cs_fifo_slicer_0_reset_fifo_1 1 3 1 1130 160n
+preplace netloc cs_fifo_slicer_0_reset_fifo_2 1 3 1 1150 180n
+preplace netloc cs_fifo_slicer_0_reset_fifo_3 1 3 1 1110 120n
+preplace netloc cs_fifo_slicer_0_wr_en_0 1 3 1 1170 60n
+preplace netloc cs_fifo_slicer_0_wr_en_1 1 3 1 1100 80n
+preplace netloc cs_fifo_slicer_0_wr_en_2 1 3 1 1200 100n
+preplace netloc cs_fifo_slicer_0_wr_en_3 1 3 1 1090 120n
+preplace netloc en_1 1 0 2 NJ 610 270J
+preplace netloc event_free_1 1 0 6 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 1920J
+preplace netloc event_reset_1 1 0 7 NJ 700 NJ 700 NJ 700 NJ 700 1550 670 1930J 700 2320
+preplace netloc internal_enabled_1 1 0 1 -50J 190n
+preplace netloc n_samples_1 1 0 2 NJ 640 290J
+preplace netloc probe_in0_1 1 0 1 -30 290n
+preplace netloc probe_in1_1 1 0 1 -40J 490n
+preplace netloc probe_in2_1 1 0 1 NJ 520
+preplace netloc probe_in3_1 1 0 1 -40J 540n
+preplace netloc trigger_manager_0_trg 1 1 1 290 220n
+preplace netloc user_clk_1 1 0 1 NJ 170
+preplace netloc cs_event_builder_0_event_word 1 6 1 2310 530n
+preplace netloc cs_event_builder_0_event_write 1 6 1 2310 570n
+preplace netloc data_sender_v1_0_0_busy 1 5 3 1940 730 NJ 730 2670
+preplace netloc axis_data_fifo_0_prog_full 1 6 3 2330 630 2680J 440 2970
+preplace netloc data_sender_v1_0_0_s_axis 1 7 1 N 500
+levelinfo -pg 1 -70 130 470 870 1350 1730 2110 2500 2830 2990
+pagesize -pg 1 -db -bbox -sgen -240 0 3130 880
+"
+}
+0

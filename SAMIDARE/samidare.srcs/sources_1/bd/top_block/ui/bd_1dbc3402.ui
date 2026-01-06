@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-340,-147",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXI -pg 1 -lvl 3 -x 480 -y 120 -defaultsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_M_ACLK -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port port-id_M_ARESETN -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port port-id_S_ACLK -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_S_ARESETN -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace inst m00_data_fifo -pg 1 -lvl 1 -x 120 -y 100 -defaultsOSRD
+preplace inst m00_regslice -pg 1 -lvl 2 -x 340 -y 120 -defaultsOSRD
+preplace netloc S_ACLK_1 1 0 1 NJ 100
+preplace netloc S_ARESETN_1 1 0 1 NJ 120
+preplace netloc M_ACLK_1 1 0 2 NJ 20 220J
+preplace netloc M_ARESETN_1 1 0 2 NJ 180 220J
+preplace netloc m00_couplers_to_m00_data_fifo 1 0 1 NJ 80
+preplace netloc m00_data_fifo_to_m00_regslice 1 1 1 N 100
+preplace netloc m00_regslice_to_m00_couplers 1 2 1 N 120
+levelinfo -pg 1 0 120 340 480
+pagesize -pg 1 -db -bbox -sgen -140 0 580 200
+"
+}
+

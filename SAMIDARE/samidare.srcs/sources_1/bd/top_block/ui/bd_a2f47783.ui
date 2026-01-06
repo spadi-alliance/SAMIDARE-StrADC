@@ -1,0 +1,104 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.03868",
+   "Default View_TopLeft":"1522,706",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port m00_axi -pg 1 -lvl 7 -x 2390 -y 660 -defaultsOSRD
+preplace port port-id_rxn_0 -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace port port-id_txp_0 -pg 1 -lvl 7 -x 2390 -y 160 -defaultsOSRD
+preplace port port-id_gtrefclk_p_0 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port port-id_gtrefclk_n_0 -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_independent_clock_0 -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port port-id_txn_0 -pg 1 -lvl 7 -x 2390 -y 180 -defaultsOSRD
+preplace port port-id_rxp_0 -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace port port-id_clk25_in_0 -pg 1 -lvl 0 -x 0 -y 30 -defaultsOSRD
+preplace port port-id_clk_in_0 -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace port port-id_reset_vio_0 -pg 1 -lvl 0 -x 0 -y 270 -defaultsOSRD
+preplace port port-id_m00_axi_aresetn -pg 1 -lvl 0 -x 0 -y 1140 -defaultsOSRD
+preplace port port-id_regacc_done -pg 1 -lvl 7 -x 2390 -y 1050 -defaultsOSRD
+preplace port port-id_user_data_write -pg 1 -lvl 0 -x 0 -y 1000 -defaultsOSRD
+preplace port port-id_user_data_commit -pg 1 -lvl 0 -x 0 -y 1040 -defaultsOSRD
+preplace port port-id_user_data_free -pg 1 -lvl 7 -x 2390 -y 870 -defaultsOSRD
+preplace port port-id_user_data_reset -pg 1 -lvl 7 -x 2390 -y 890 -defaultsOSRD
+preplace port port-id_start_i2c_read_o -pg 1 -lvl 7 -x 2390 -y 1110 -defaultsOSRD
+preplace port port-id_start_i2c_write_o -pg 1 -lvl 7 -x 2390 -y 1070 -defaultsOSRD
+preplace port port-id_start_i2c_write_all_o -pg 1 -lvl 7 -x 2390 -y 1090 -defaultsOSRD
+preplace portBus user_data_word -pg 1 -lvl 0 -x 0 -y 960 -defaultsOSRD
+preplace portBus user_data_offset -pg 1 -lvl 0 -x 0 -y 980 -defaultsOSRD
+preplace portBus user_data_commit_len -pg 1 -lvl 0 -x 0 -y 1020 -defaultsOSRD
+preplace portBus i2c_waddr_o -pg 1 -lvl 7 -x 2390 -y 1150 -defaultsOSRD
+preplace portBus i2c_raddr_o -pg 1 -lvl 7 -x 2390 -y 1130 -defaultsOSRD
+preplace inst mii_initializer_0 -pg 1 -lvl 2 -x 450 -y 270 -defaultsOSRD
+preplace inst if_gate -pg 1 -lvl 3 -x 730 -y 270 -defaultsOSRD
+preplace inst if_gate1 -pg 1 -lvl 3 -x 730 -y 430 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 170 -y 390 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -x 1100 -y 720 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -x 730 -y 660 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 3 -x 730 -y 560 -defaultsOSRD
+preplace inst RESET_INST_0 -pg 1 -lvl 1 -x 170 -y 270 -defaultsOSRD
+preplace inst gig_ethernet_pcs_pma_0 -pg 1 -lvl 4 -x 1100 -y 250 -defaultsOSRD
+preplace inst fakernet_top_0 -pg 1 -lvl 5 -x 1580 -y 820 -defaultsOSRD
+preplace inst native_to_axi_lite_v_0 -pg 1 -lvl 6 -x 2120 -y 700 -defaultsOSRD
+preplace inst reg_switch_0 -pg 1 -lvl 6 -x 2120 -y 1050 -defaultsOSRD
+preplace netloc RESET_INST_0_sfp_reset_pulse 1 1 3 320 190 NJ 190 860J
+preplace netloc clk25_in_0_1 1 0 5 NJ 30 NJ 30 NJ 30 NJ 30 1360J
+preplace netloc clk_in_0_1 1 0 6 30 190 310 720 NJ 720 900J 590 1340 490 1840
+preplace netloc fakernet_top_0_eth_mdc 1 2 4 630 20 NJ 20 NJ 20 1820
+preplace netloc fakernet_top_0_eth_mdio_out 1 2 4 630 500 NJ 500 NJ 500 1800
+preplace netloc fakernet_top_0_eth_tx_en 1 3 3 900 470 NJ 470 1830
+preplace netloc fakernet_top_0_eth_txd 1 3 3 890 480 NJ 480 1810
+preplace netloc fakernet_top_0_regacc_addr_o 1 5 1 N 1000
+preplace netloc fakernet_top_0_regacc_data_wr_o 1 5 1 N 1020
+preplace netloc fakernet_top_0_regacc_read_o 1 5 1 N 1060
+preplace netloc fakernet_top_0_regacc_write_o 1 5 1 N 1040
+preplace netloc fakernet_top_0_user_data_free 1 5 2 1800J 880 2370J
+preplace netloc fakernet_top_0_user_data_reset 1 5 2 1810J 890 NJ
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rx_clk 1 3 2 900 10 1350
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rx_dv 1 4 1 1310 240n
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rxd 1 4 1 1330 220n
+preplace netloc gig_ethernet_pcs_pma_0_mdio_o 1 4 1 1320 280n
+preplace netloc gig_ethernet_pcs_pma_0_resetdone_out 1 0 5 20 450 NJ 450 590J 350 830J 490 1300
+preplace netloc gig_ethernet_pcs_pma_0_txn 1 4 3 NJ 180 NJ 180 NJ
+preplace netloc gig_ethernet_pcs_pma_0_txp 1 4 3 NJ 160 NJ 160 NJ
+preplace netloc gtrefclk_n_0_1 1 0 4 NJ 150 NJ 150 NJ 150 NJ
+preplace netloc gtrefclk_p_0_1 1 0 4 NJ 130 NJ 130 NJ 130 NJ
+preplace netloc if_gate1_Res 1 3 1 840 310n
+preplace netloc if_gate_Res 1 3 1 840 270n
+preplace netloc independent_clock_0_1 1 0 4 NJ 90 NJ 90 NJ 90 NJ
+preplace netloc m00_axi_aresetn_1 1 0 6 NJ 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 1850
+preplace netloc mii_initializer_0_COMPLETE 1 2 1 620 250n
+preplace netloc mii_initializer_0_MDC 1 2 1 610 250n
+preplace netloc mii_initializer_0_MDIO_OUT 1 2 1 600 270n
+preplace netloc native_to_axi_lite_v_0_regacc_data_rd 1 5 2 1900 820 2370
+preplace netloc native_to_axi_lite_v_0_regacc_done 1 5 2 1910 830 2330
+preplace netloc reg_switch_0_regacc_addr_o 1 5 2 1860 840 2360
+preplace netloc reg_switch_0_regacc_data_rd_o 1 4 3 1320 1210 NJ 1210 2330
+preplace netloc reg_switch_0_regacc_data_wr_o 1 5 2 1870 850 2350
+preplace netloc reg_switch_0_regacc_done_o 1 4 3 1350 1220 NJ 1220 2350
+preplace netloc reg_switch_0_regacc_read_o 1 5 2 1890 870 2330
+preplace netloc reg_switch_0_regacc_write_o 1 5 2 1880 860 2340
+preplace netloc reset_vio_0_1 1 0 1 NJ 270
+preplace netloc rxn_0_1 1 0 4 20J 180 NJ 180 NJ 180 890J
+preplace netloc rxp_0_1 1 0 4 NJ 170 NJ 170 NJ 170 NJ
+preplace netloc user_data_commit_1 1 0 5 NJ 1040 NJ 1040 NJ 1040 NJ 1040 NJ
+preplace netloc user_data_commit_len_1 1 0 5 NJ 1020 NJ 1020 NJ 1020 NJ 1020 NJ
+preplace netloc user_data_offset_1 1 0 5 NJ 980 NJ 980 NJ 980 NJ 980 NJ
+preplace netloc user_data_word_1 1 0 5 NJ 960 NJ 960 NJ 960 NJ 960 NJ
+preplace netloc user_data_write_1 1 0 5 NJ 1000 NJ 1000 NJ 1000 NJ 1000 NJ
+preplace netloc xlconstant_0_dout 1 1 3 320 350 580J 340 850
+preplace netloc xlconstant_1_dout 1 4 1 1330 720n
+preplace netloc xlconstant_2_dout 1 3 2 880 600 NJ
+preplace netloc xlconstant_3_dout 1 3 1 870J 350n
+preplace netloc reg_switch_0_start_i2c_read_o 1 6 1 NJ 1110
+preplace netloc reg_switch_0_start_i2c_write_o 1 6 1 NJ 1070
+preplace netloc reg_switch_0_start_i2c_write_all_o 1 6 1 NJ 1090
+preplace netloc reg_switch_0_i2c_waddr_o 1 6 1 NJ 1150
+preplace netloc reg_switch_0_i2c_raddr_o 1 6 1 NJ 1130
+preplace netloc Conn1 1 6 1 NJ 660
+levelinfo -pg 1 0 170 450 730 1100 1580 2120 2390
+pagesize -pg 1 -db -bbox -sgen -260 0 2590 1230
+"
+}
+0

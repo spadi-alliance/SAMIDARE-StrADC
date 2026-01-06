@@ -1,0 +1,73 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-813,-358",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -40 -y 160 -defaultsOSRD
+preplace port port-id_clk125MHz -pg 1 -lvl 0 -x -40 -y 190 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -40 -y 480 -defaultsOSRD
+preplace port port-id_write_en -pg 1 -lvl 0 -x -40 -y 510 -defaultsOSRD
+preplace port port-id_read_en -pg 1 -lvl 0 -x -40 -y 540 -defaultsOSRD
+preplace port port-id_mem_full -pg 1 -lvl 3 -x 700 -y 500 -defaultsOSRD
+preplace port port-id_reset1 -pg 1 -lvl 0 -x -40 -y 260 -defaultsOSRD
+preplace port port-id_write_en1 -pg 1 -lvl 0 -x -40 -y 290 -defaultsOSRD
+preplace port port-id_read_en1 -pg 1 -lvl 0 -x -40 -y 320 -defaultsOSRD
+preplace port port-id_mem_full1 -pg 1 -lvl 3 -x 700 -y 240 -defaultsOSRD
+preplace port port-id_reset2 -pg 1 -lvl 0 -x -40 -y 40 -defaultsOSRD
+preplace port port-id_write_en2 -pg 1 -lvl 0 -x -40 -y 70 -defaultsOSRD
+preplace port port-id_read_en2 -pg 1 -lvl 0 -x -40 -y 100 -defaultsOSRD
+preplace port port-id_mem_full2 -pg 1 -lvl 3 -x 700 -y 80 -defaultsOSRD
+preplace port port-id_reset3 -pg 1 -lvl 0 -x -40 -y 680 -defaultsOSRD
+preplace port port-id_write_en3 -pg 1 -lvl 0 -x -40 -y 710 -defaultsOSRD
+preplace port port-id_read_en3 -pg 1 -lvl 0 -x -40 -y 740 -defaultsOSRD
+preplace port port-id_mem_full3 -pg 1 -lvl 3 -x 700 -y 700 -defaultsOSRD
+preplace portBus data_in -pg 1 -lvl 0 -x -40 -y 570 -defaultsOSRD
+preplace portBus fifos_out -pg 1 -lvl 3 -x 700 -y 350 -defaultsOSRD
+preplace portBus fifos_empty -pg 1 -lvl 3 -x 700 -y 380 -defaultsOSRD
+preplace portBus data_in1 -pg 1 -lvl 0 -x -40 -y 350 -defaultsOSRD
+preplace portBus data_in2 -pg 1 -lvl 0 -x -40 -y 130 -defaultsOSRD
+preplace portBus data_in3 -pg 1 -lvl 0 -x -40 -y 770 -defaultsOSRD
+preplace inst asyncfifo_3 -pg 1 -lvl 1 -x 180 -y 520 -defaultsOSRD
+preplace inst cs_appunit_fifo_out_0 -pg 1 -lvl 2 -x 530 -y 370 -defaultsOSRD
+preplace inst asyncfifo_1 -pg 1 -lvl 1 -x 180 -y 300 -defaultsOSRD
+preplace inst asyncfifo_2 -pg 1 -lvl 1 -x 180 -y 100 -defaultsOSRD
+preplace inst asyncfifo_0 -pg 1 -lvl 1 -x 180 -y 720 -defaultsOSRD
+preplace netloc asyncfifo_0_mem_empty 1 1 1 380 380n
+preplace netloc asyncfifo_0_mem_full 1 1 2 NJ 700 NJ
+preplace netloc asyncfifo_0_out_bus 1 1 1 360 300n
+preplace netloc asyncfifo_1_mem_empty 1 1 1 330 300n
+preplace netloc asyncfifo_1_mem_full 1 1 2 330J 240 NJ
+preplace netloc asyncfifo_1_out_bus 1 1 1 N 320
+preplace netloc asyncfifo_2_mem_empty 1 1 1 340 100n
+preplace netloc asyncfifo_2_mem_full 1 1 2 NJ 80 NJ
+preplace netloc asyncfifo_2_out_bus 1 1 1 350 120n
+preplace netloc asyncfifo_3_mem_empty 1 1 1 370 440n
+preplace netloc asyncfifo_3_mem_full 1 1 2 NJ 500 NJ
+preplace netloc asyncfifo_3_out_bus 1 1 1 350 360n
+preplace netloc clk1_1 1 0 1 10 70n
+preplace netloc clk_1 1 0 1 0 50n
+preplace netloc cs_appunit_fifo_out_0_fifos_empty 1 2 1 NJ 380
+preplace netloc cs_appunit_fifo_out_0_fifos_out 1 2 1 680J 350n
+preplace netloc cs_fifo_slicer_0_bus_0 1 0 1 NJ 770
+preplace netloc cs_fifo_slicer_0_bus_1 1 0 1 NJ 350
+preplace netloc cs_fifo_slicer_0_bus_2 1 0 1 20J 130n
+preplace netloc cs_fifo_slicer_0_bus_3 1 0 1 NJ 570
+preplace netloc cs_fifo_slicer_0_request_fifo_0 1 0 1 10J 740n
+preplace netloc cs_fifo_slicer_0_request_fifo_1 1 0 1 -20J 320n
+preplace netloc cs_fifo_slicer_0_request_fifo_2 1 0 1 30J 100n
+preplace netloc cs_fifo_slicer_0_request_fifo_3 1 0 1 -20J 540n
+preplace netloc cs_fifo_slicer_0_reset_fifo_0 1 0 1 -10J 680n
+preplace netloc cs_fifo_slicer_0_reset_fifo_1 1 0 1 30J 260n
+preplace netloc cs_fifo_slicer_0_reset_fifo_2 1 0 1 30J 40n
+preplace netloc cs_fifo_slicer_0_reset_fifo_3 1 0 1 -10J 480n
+preplace netloc cs_fifo_slicer_0_wr_en_0 1 0 1 -20J 710n
+preplace netloc cs_fifo_slicer_0_wr_en_1 1 0 1 -20J 290n
+preplace netloc cs_fifo_slicer_0_wr_en_2 1 0 1 -20J 70n
+preplace netloc cs_fifo_slicer_0_wr_en_3 1 0 1 -20J 510n
+levelinfo -pg 1 -40 180 530 700
+pagesize -pg 1 -db -bbox -sgen -200 -10 870 830
+"
+}
+0

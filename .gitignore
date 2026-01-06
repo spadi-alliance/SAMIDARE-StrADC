@@ -1,0 +1,46 @@
+# Vivado auto-generated files
+.cache/
+.hw/.Xil/
+.ip_user_files/
+.sim/
+.runs/
+.sdk/
+.gen/
+webtalk.log
+vivado.jou
+vivado.log
+*.str
+*.tmp
+*.backup.jou
+*.backup.log
+*.html
+*.ltx
+
+# Xilinx-specific junk
+*.Xil/
+*.jou
+*.log
+
+# Generated/build directories
+*.gen/
+*.hw/
+*.cache/
+*.runs/
+
+# But preserve specific implementation files
+!SAMIDARE/samidare.runs/
+!SAMIDARE/samidare.runs/impl_1/
+!SAMIDARE/samidare.runs/impl_1/top_block_wrapper.*
+
+# IP repository generated files
+ip_repo/**/*.cache/
+ip_repo/**/*.hw/
+ip_repo/**/*.runs/
+ip_repo/**/*.lpr
+
+# Binary files (if auto-generated)
+*.bin
+
+# Optional: simulation artifacts
+*.vcd
+*.wdb

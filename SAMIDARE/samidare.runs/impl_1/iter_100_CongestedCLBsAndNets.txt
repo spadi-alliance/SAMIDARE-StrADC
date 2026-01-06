@@ -1,0 +1,7 @@
+List of CLB Tiles
+CLEM_X19Y60
+
+List of Congested Nets
+top_block_i/appUnit/threshold_comparator_0/inst/channel_ptr_reg[0]_repN_29
+top_block_i/appUnit/threshold_comparator_0/inst/channel_fifo_reg[2][15]_351[39]
+

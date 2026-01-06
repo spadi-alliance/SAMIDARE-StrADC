@@ -1,0 +1,524 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jul  4 14:07:40 2024
+# Process ID: 4012181
+# Current directory: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1
+# Command line: vivado -log gig_ethernet_pcs_pma_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gig_ethernet_pcs_pma_0.tcl
+# Log file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/gig_ethernet_pcs_pma_0.vds
+# Journal file: /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/vivado.jou
+# Running On: e16fpga01, OS: Linux, CPU Frequency: 4500.000 MHz, CPU Physical cores: 32, Host memory: 66513 MB
+#-----------------------------------------------------------
+source gig_ethernet_pcs_pma_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: gig_ethernet_pcs_pma_0
+Command: synth_design -top gig_ethernet_pcs_pma_0 -part xcau15p-sbvb484-1-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcau15p'
+INFO: [Device 21-403] Loading part xcau15p-sbvb484-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4012604
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2154.281 ; gain = 365.695 ; free physical = 600 ; free virtual = 27088
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3144.602; parent = 2157.254; children = 987.348
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.v:55]
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0_block' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_block.v:83]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0_transceiver' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_transceiver.v:61]
+	Parameter EXAMPLE_SIMULATION bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0_reset_sync' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_reset_sync.v:62]
+INFO: [Synth 8-6157] synthesizing module 'FDP' [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38635]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'FDP' (0#1) [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38635]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0_reset_sync' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_reset_sync.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0_transceiver' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_transceiver.v:61]
+INFO: [Synth 8-6157] synthesizing module 'gig_ethernet_pcs_pma_0_sync_block' [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_sync_block.v:62]
+INFO: [Synth 8-6157] synthesizing module 'FD' [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38467]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FD' (0#1) [/opt/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38467]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0_sync_block' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_sync_block.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0_block' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_block.v:83]
+INFO: [Synth 8-6155] done synthesizing module 'gig_ethernet_pcs_pma_0' (0#1) [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.v:55]
+WARNING: [Synth 8-7129] Port rxusrclk in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxusrclk2 in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_valid in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port txresetdone_in in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxresetdone_in in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[15] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[14] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[13] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[12] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[11] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[10] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[9] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[8] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[7] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[6] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[5] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[4] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[3] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl0_in[2] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[15] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[14] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[13] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[12] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[11] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[10] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[9] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[8] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[7] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[6] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[5] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[4] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[3] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl1_in[2] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[7] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[6] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[5] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[4] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[3] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl2_in[2] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[7] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[6] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[5] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[4] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[3] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rxctrl3_in[2] in module gig_ethernet_pcs_pma_0_transceiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RXRUNDISP in module RX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RXBUFSTATUS[0] in module RX is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RXBUFSTATUS[0] in module SYNCHRONISE is either unconnected or has no load
+WARNING: [Synth 8-7129] Port NP_LOADED_SET in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awready in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wready in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[1] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[0] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bvalid in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arready in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[31] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[30] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[29] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[28] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[27] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[26] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[25] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[24] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[23] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[22] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[21] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[20] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[19] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[18] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[17] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[16] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[15] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[14] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[13] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[12] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[11] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[10] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[9] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[8] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[7] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[6] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[5] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[4] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[3] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[2] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[1] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[0] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[1] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[0] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rvalid in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[15] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[14] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[13] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[12] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[11] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[10] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[9] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[8] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[7] in module MANAGEMENT is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RX_GT_NOMINAL_LATENCY[6] in module MANAGEMENT is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2240.219 ; gain = 451.633 ; free physical = 886 ; free virtual = 25878
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3227.570; parent = 2240.223; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2255.062 ; gain = 466.477 ; free physical = 793 ; free virtual = 25785
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3242.414; parent = 2255.066; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2255.062 ; gain = 466.477 ; free physical = 688 ; free virtual = 25680
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3242.414; parent = 2255.066; children = 987.348
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2258.031 ; gain = 0.000 ; free physical = 761 ; free virtual = 25498
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/gig_ethernet_pcs_pma_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/gig_ethernet_pcs_pma_0_board.xdc] for cell 'inst'
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_clocks.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0_clocks.xdc] for cell 'inst'
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.srcs/sources_1/ip/gig_ethernet_pcs_pma_0_2/synth/gig_ethernet_pcs_pma_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/gig_ethernet_pcs_pma_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/gig_ethernet_pcs_pma_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2409.812 ; gain = 0.000 ; free physical = 972 ; free virtual = 24654
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 50 instances were transformed.
+  FD => FDRE: 24 instances
+  FDP => FDPE: 24 instances
+  SRL16 => SRL16E: 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2409.812 ; gain = 0.000 ; free physical = 963 ; free virtual = 24645
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2409.812 ; gain = 621.227 ; free physical = 711 ; free virtual = 23232
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3397.164; parent = 2409.816; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcau15p-sbvb484-1-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2409.812 ; gain = 621.227 ; free physical = 722 ; free virtual = 23224
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3397.164; parent = 2409.816; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2409.812 ; gain = 621.227 ; free physical = 750 ; free virtual = 23230
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3397.164; parent = 2409.816; children = 987.348
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'MDIO_INTERFACE'
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'SYNCHRONISE'
+INFO: [Synth 8-802] inferred FSM for state register 'USE_ROCKET_IO.TX_RST_SM_reg' in module 'GPCS_PMA_GEN'
+INFO: [Synth 8-802] inferred FSM for state register 'USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg' in module 'GPCS_PMA_GEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        idle_or_preamble |                      00000010000 |                             0000
+          wait_for_start |                      00001000000 |                             0001
+                opcode_1 |                      00000001000 |                             0010
+                opcode_2 |                      00000000001 |                             0011
+                ld_phyad |                      00000000010 |                             0100
+                ld_regad |                      00000000100 |                             0101
+                    ta_1 |                      10000000000 |                             0110
+                    ta_2 |                      00010000000 |                             0111
+                  data_1 |                      00100000000 |                             1000
+                  data_2 |                      01000000000 |                             1001
+                  data_3 |                      00000100000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'MDIO_INTERFACE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            loss_of_sync |                    0000000000100 |                             0000
+          comma_detect_1 |                    0010000000000 |                             0001
+           aquire_sync_1 |                    0000000010000 |                             0010
+          comma_detect_2 |                    0000000000001 |                             0011
+           aquire_sync_2 |                    0000000000010 |                             0100
+          comma_detect_3 |                    0000000001000 |                             0101
+         sync_acquired_1 |                    1000000000000 |                             0110
+         sync_acquired_2 |                    0001000000000 |                             0111
+        sync_acquired_2a |                    0100000000000 |                             1000
+         sync_acquired_3 |                    0000001000000 |                             1001
+        sync_acquired_3a |                    0000100000000 |                             1010
+         sync_acquired_4 |                    0000010000000 |                             1011
+        sync_acquired_4a |                    0000000100000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'SYNCHRONISE'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                  000000000000001 |                             0000
+                 iSTATE6 |                  000000000000010 |                             0001
+                 iSTATE2 |                  000000000000100 |                             0010
+                  iSTATE |                  000000000001000 |                             0011
+                 iSTATE0 |                  000000000010000 |                             0100
+                iSTATE13 |                  000000000100000 |                             0101
+                iSTATE11 |                  000000001000000 |                             0110
+                 iSTATE9 |                  000000010000000 |                             0111
+                iSTATE10 |                  000000100000000 |                             1000
+                 iSTATE8 |                  000001000000000 |                             1001
+                 iSTATE5 |                  000010000000000 |                             1010
+                 iSTATE3 |                  000100000000000 |                             1011
+                 iSTATE4 |                  001000000000000 |                             1100
+                 iSTATE1 |                  010000000000000 |                             1101
+                iSTATE12 |                  100000000000000 |                             1110
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg' using encoding 'one-hot' in module 'GPCS_PMA_GEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE7 |                  000000000000001 |                             0000
+                 iSTATE6 |                  000000000000010 |                             0001
+                 iSTATE2 |                  000000000000100 |                             0010
+                  iSTATE |                  000000000001000 |                             0011
+                 iSTATE0 |                  000000000010000 |                             0100
+                iSTATE13 |                  000000000100000 |                             0101
+                iSTATE11 |                  000000001000000 |                             0110
+                 iSTATE9 |                  000000010000000 |                             0111
+                iSTATE10 |                  000000100000000 |                             1000
+                 iSTATE8 |                  000001000000000 |                             1001
+                 iSTATE5 |                  000010000000000 |                             1010
+                 iSTATE3 |                  000100000000000 |                             1011
+                 iSTATE4 |                  001000000000000 |                             1100
+                 iSTATE1 |                  010000000000000 |                             1101
+                iSTATE12 |                  100000000000000 |                             1110
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'USE_ROCKET_IO.TX_RST_SM_reg' using encoding 'one-hot' in module 'GPCS_PMA_GEN'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2409.812 ; gain = 621.227 ; free physical = 722 ; free virtual = 22980
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3397.164; parent = 2409.816; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               16 Bit    Registers := 7     
+	                8 Bit    Registers := 14    
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 23    
+	                1 Bit    Registers := 151   
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 1     
+	  17 Input   16 Bit        Muxes := 1     
+	  15 Input   15 Bit        Muxes := 2     
+	  13 Input   13 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 18    
+	  11 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 5     
+	   8 Input    8 Bit        Muxes := 1     
+	   5 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 7     
+	   3 Input    8 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 39    
+	   4 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 1     
+	  15 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 576 (col length:72)
+BRAMs: 288 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (gpcs_pma_inst/FSM_onehot_USE_ROCKET_IO.RX_RST_SM_TXOUTCLK.RX_RST_SM_reg[14]) is unused and will be removed from module gig_ethernet_pcs_pma_v16_2_9.
+INFO: [Synth 8-3332] Sequential element (gpcs_pma_inst/FSM_onehot_USE_ROCKET_IO.TX_RST_SM_reg[14]) is unused and will be removed from module gig_ethernet_pcs_pma_v16_2_9.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 2409.812 ; gain = 621.227 ; free physical = 770 ; free virtual = 22653
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1343.637; parent = 1222.362; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3397.164; parent = 2409.816; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1093 ; free virtual = 22828
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1515.767; parent = 1395.469; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1123 ; free virtual = 22858
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1517.748; parent = 1397.450; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1273 ; free virtual = 23008
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1518.932; parent = 1398.434; children = 121.274
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1720 ; free virtual = 23480
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1520.909; parent = 1399.219; children = 121.690
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1854 ; free virtual = 23610
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.000; parent = 1399.297; children = 121.703
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1836 ; free virtual = 23591
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.104; parent = 1399.365; children = 121.739
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1894 ; free virtual = 23649
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.104; parent = 1399.365; children = 121.739
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1951 ; free virtual = 23706
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.104; parent = 1399.365; children = 121.739
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1933 ; free virtual = 23688
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.104; parent = 1399.367; children = 121.739
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------------+------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                  | RTL Name                                                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------------+------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|gig_ethernet_pcs_pma_v16_2_9 | gpcs_pma_inst/RX_GMII_AT_TXOUTCLK.RECEIVER_TXOUTCLK/RXDATA_REG5_reg[7] | 5      | 8     | NO           | NO                 | NO                | 8      | 0       | 
++-----------------------------+------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     9|
+|2     |LUT2   |    36|
+|3     |LUT3   |    82|
+|4     |LUT4   |    36|
+|5     |LUT5   |    46|
+|6     |LUT6   |    51|
+|7     |SRL16  |     2|
+|8     |SRL16E |     8|
+|9     |FD     |    24|
+|10    |FDP    |    24|
+|11    |FDPE   |     4|
+|12    |FDRE   |   368|
+|13    |FDSE   |    27|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.555 ; gain = 667.969 ; free physical = 1880 ; free virtual = 23635
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1521.166; parent = 1399.420; children = 121.746
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3443.906; parent = 2456.559; children = 987.348
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 445 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2456.555 ; gain = 513.219 ; free physical = 1962 ; free virtual = 23717
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 2456.562 ; gain = 667.969 ; free physical = 1977 ; free virtual = 23733
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2456.562 ; gain = 0.000 ; free physical = 2086 ; free virtual = 23841
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2499.410 ; gain = 0.000 ; free physical = 2100 ; free virtual = 23856
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 50 instances were transformed.
+  FD => FDRE: 24 instances
+  FDP => FDPE: 24 instances
+  SRL16 => SRL16E: 2 instances
+
+Synth Design complete, checksum: c76d1fe9
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 2499.410 ; gain = 1178.266 ; free physical = 2393 ; free virtual = 24150
+INFO: [Common 17-1381] The checkpoint '/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/gig_ethernet_pcs_pma_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP gig_ethernet_pcs_pma_0, cache-ID = 887ad118a12dbc97
+INFO: [Coretcl 2-1174] Renamed 13 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/nagafusa/work/spadi/Fakernet/SAMIDARE/samidare.runs/gig_ethernet_pcs_pma_0_synth_1/gig_ethernet_pcs_pma_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file gig_ethernet_pcs_pma_0_utilization_synth.rpt -pb gig_ethernet_pcs_pma_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  4 14:08:09 2024...
